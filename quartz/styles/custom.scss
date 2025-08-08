@@ -14,17 +14,28 @@
 
 // put your custom CSS here!
 body {
+  /* Use PNG; consider adding WebP/AVIF assets later */
   background-image: url("/static/bg-blog.png") !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* Avoid fixed to reduce jank and repaint cost on scroll */
+  background-attachment: scroll;
   margin: 0;
 }
 
 /* Landing page specific background */
 body[data-slug="index"] {
   background-image: url("/static/bg-new.png") !important;
+}
+
+/* Respect user data-saver preference: use a tiny inline gradient instead of heavy images */
+@media (prefers-reduced-data: reduce) {
+  body,
+  body[data-slug="index"] {
+    background-image: linear-gradient(180deg, #eef3f7 0%, #e6edf5 100%) !important;
+    background-attachment: scroll !important;
+  }
 }
 
 @font-face {
