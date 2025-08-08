@@ -28,7 +28,7 @@ interface BreadcrumbOptions {
 }
 
 const defaultOptions: BreadcrumbOptions = {
-  spacerSymbol: ">",
+  spacerSymbol: "•",
   rootName: "Home",
   resolveFrontmatterTitle: false,
   hideOnRoot: true,
@@ -61,6 +61,13 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
   const options: BreadcrumbOptions = { ...defaultOptions, ...opts }
 
   function Breadcrumbs({ fileData, allFiles, displayClass }: QuartzComponentProps) {
+    const folderTitleMap: Record<string, string> = {
+      "ai-robotics": "AI & Robotics",
+      "science-theory": "Science & Theory",
+      "books-sources": "Books & Sources",
+      "personal-essays": "Personal Essays",
+      "side-quests": "Side Quests",
+    }
     // Hide crumbs on root if enabled
     if (options.hideOnRoot && fileData.slug === "index") {
       return <></>
@@ -77,6 +84,9 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       let currentPath = ""
       for (let i = 0; i < slugParts.length - 1; i++) {
         let currentTitle = slugParts[i]
+        if (folderTitleMap[currentTitle]) {
+          currentTitle = folderTitleMap[currentTitle]
+        }
 
         // TODO: performance optimizations/memoizing
         // Try to resolve frontmatter folder title
@@ -96,10 +106,14 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       }
 
       // Add current file to crumb (can directly use frontmatter title)
-      crumbs.push({
-        displayName: fileData.frontmatter!.title,
-        path: "",
-      })
+      // For folder index pages (slug ends with "/index"), avoid duplicating the folder name
+      const isFolderIndex = slugParts[slugParts.length - 1] === "index"
+      if (!isFolderIndex) {
+        crumbs.push({
+          displayName: fileData.frontmatter!.title,
+          path: "",
+        })
+      }
     }
     return (
       <nav class={`breadcrumb-container ${displayClass ?? ""}`} aria-label="breadcrumbs">

@@ -31,7 +31,8 @@ export const defaultContentPageLayout: PageLayout = {
 }
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs({ spacerSymbol: "•" }), Component.ArticleTitle()],
+  // Align breadcrumb separator with content pages for consistency
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
