@@ -1,0 +1,66 @@
+button#toc {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+
+  & h3 {
+    font-family: "Source Serif 4", "Source Serif Pro", "Times New Roman", Georgia, serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.3;
+    display: inline-block;
+    margin: 0;
+  }
+
+  & .fold {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+  }
+
+  &.collapsed .fold {
+    transform: rotateZ(-90deg);
+  }
+}
+
+#toc-content {
+  list-style: none;
+  overflow: hidden;
+  max-height: none;
+  transition: max-height 0.5s ease;
+
+  &.collapsed > .overflow::after {
+    opacity: 0;
+  }
+
+  & ul {
+    list-style: none;
+    margin: 0.5rem 0;
+    padding: 0;
+    & > li > a {
+      color: var(--dark);
+      opacity: 0.35;
+      font-family: "Source Serif 4", "Source Serif Pro", "Times New Roman", Georgia, serif;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.6;
+      transition:
+        0.5s ease opacity,
+        0.3s ease color;
+      &.in-view {
+        opacity: 0.75;
+      }
+    }
+  }
+
+  @for $i from 0 through 6 {
+    & .depth-#{$i} {
+      padding-left: calc(1rem * #{$i});
+    }
+  }
+}

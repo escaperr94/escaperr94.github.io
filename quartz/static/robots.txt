@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://escaperr94.github.io/sitemap.xml

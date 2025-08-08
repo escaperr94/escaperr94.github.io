@@ -1,0 +1,635 @@
+@use "./base.scss";
+
+// Osamu Color Palette
+:root {
+  --osamu-blue: #014458;
+  --osamu-green: #91B22D;
+  --osamu-pink: #FCD2BC;
+  --osamu-dark-pink: #B48C8C;
+  --osamu-black: #000000;
+  --osamu-white: #FFFFFF;
+  --osamu-brown: #43352C;
+  --osamu-gray: #514943;
+}
+
+// put your custom CSS here!
+body {
+  background-image: url("/static/bg-blog.png") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/* Landing page specific background */
+body[data-slug="index"] {
+  background-image: url("/static/bg-new.png") !important;
+}
+
+@font-face {
+  font-family: "Tiempos";
+  src: url("/static/tiempos-light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* HEADER AT TOP OF WEBSITE */
+.marquee {
+  background: linear-gradient(90deg, var(--osamu-blue) 77%, var(--osamu-green) 100%);
+  overflow: hidden;
+  width: 100%;
+  font-family: "IBM Plex Mono", var(--codeFont), "Monaco", "Consolas", monospace !important;
+  white-space: nowrap;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    height: 35px; /* Slightly smaller on tablets */
+  }
+  
+  @media (max-width: 480px) {
+    height: 30px; /* Even smaller on mobile */
+  }
+}
+
+.marquee p {
+  color: white;
+  font-weight: 700 !important;
+  font-family: "IBM Plex Mono", var(--codeFont), "Monaco", "Consolas", monospace !important;
+  white-space: nowrap;
+  animation: loopText 15s infinite linear;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px; /* Base font size */
+  
+  /* Responsive font sizes */
+  @media (max-width: 768px) {
+    font-size: 13px;
+    line-height: 35px;
+    animation: loopText 12s infinite linear; /* Faster animation on smaller screens */
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 12px;
+    line-height: 30px;
+    animation: loopText 10s infinite linear; /* Even faster on mobile */
+  }
+}
+
+@keyframes loopText {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+/* CONTENT CONTAINER */
+.content-container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 128px;
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    width: 80%; /* Slightly wider on medium screens */
+    padding-bottom: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    width: 90%; /* Even wider on tablets */
+    padding-bottom: 80px;
+  }
+  
+  @media (max-width: 480px) {
+    width: 95%; /* Almost full width on mobile */
+    padding-bottom: 60px;
+  }
+  
+  @media (max-width: 320px) {
+    width: 98%; /* Maximum width on very small screens */
+    padding-bottom: 40px;
+  }
+}
+
+.article-header {
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 25px;
+  border: 1px solid #5687d1;
+  background: #6096e6;
+
+  h1 {
+    color: #f9f5e9;
+    padding: 0px;
+    margin: 0;
+  }
+
+  p {
+    color: #f9f5e9;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+  }
+}
+
+body[data-slug="getting-started"] .article-header {
+  border: #949c61;
+  background: #9ca665;
+}
+
+body[data-slug="growing-people"] .article-header {
+  border: #ad7018;
+  background: #bd7c18;
+}
+
+body[data-slug="superboosting-ideas"] .article-header {
+  border: #9f7389;
+  background: #ac7d94;
+}
+
+body[data-slug="maintenance"] .article-header {
+  border: #d37662;
+  background: #eb846d;
+}
+
+body[data-slug="demo-days"] .article-header {
+  border: #e18fa715;
+  background: #e18fa7;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+body[data-slug="basics"] .navigation-container {
+  display: display;
+  justify-content: flex-end;
+}
+
+body[data-slug="demo-days"] .navigation-container {
+  display: display;
+  justify-content: flex-start;
+}
+
+a.navigation-button {
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #5687d1;
+  background: #6096e6;
+  width: 17%;
+  text-align: center;
+  transition: all 0.3s;
+  transform: scale(1);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  p {
+    color: #f9f5e9;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+body[data-slug="getting-started"] a.navigation-button {
+  border: #949c61;
+  background: #9ca665;
+}
+
+body[data-slug="growing-people"] a.navigation-button {
+  border: #ad7018;
+  background: #bd7c18;
+}
+
+body[data-slug="superboosting-ideas"] a.navigation-button {
+  border: #9f7389;
+  background: #ac7d94;
+}
+
+body[data-slug="maintenance"] a.navigation-button {
+  border: #d37662;
+  background: #eb846d;
+}
+
+body[data-slug="demo-days"] a.navigation-button {
+  border: #ab5e75;
+  background: #e18fa7;
+}
+
+.end-message {
+  border-radius: 5px;
+  padding: 25px;
+  color: #f9f5e9;
+
+  h1 {
+    padding: 0;
+    margin: 0;
+    color: #f9f5e9;
+  }
+
+  p {
+    padding: 5px 0 0;
+    margin: 0;
+    color: #f9f5e9;
+  }
+
+  .cta-button {
+    background-color: #f9f5e9;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+
+    .cta-button {
+      display: block;
+      margin: 20px auto 0;
+    }
+  }
+}
+
+body[data-slug="basics"] .end-message {
+  border: 1px solid #5687d1;
+  background: #6096e6;
+
+  .cta-button {
+    color: #6096e6;
+  }
+}
+
+body[data-slug="getting-started"] .end-message {
+  border: 1px solid #949c61;
+  background: #9ca665;
+
+  .cta-button {
+    color: #9ca665;
+  }
+}
+
+body[data-slug="growing-people"] .end-message {
+  border: 1px solid #ad7018;
+  background: #bd7c18;
+
+  .cta-button {
+    color: #bd7c18;
+  }
+}
+
+body[data-slug="superboosting-ideas"] .end-message {
+  border: 1px solid #9f7389;
+  background: #ac7d94;
+
+  .cta-button {
+    color: #ac7d94;
+  }
+}
+
+body[data-slug="maintenance"] .end-message {
+  border: 1px solid #d37662;
+  background: #eb846d;
+
+  .cta-button {
+    color: #eb846d;
+  }
+}
+
+body[data-slug="demo-days"] .end-message {
+  border: 1px solid #ab5e75;
+  background: #e18fa7;
+
+  .cta-button {
+    color: #e18fa7;
+  }
+}
+
+/* HIDE SCROLLBAR FOR CLEAN LOOK */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Keep smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* PAGE TITLE STYLING FOR BLOG PAGES (NOT LANDING) */
+/* Target only non-index pages to avoid affecting landing page */
+body:not([data-slug="index"]) .page-title a {
+  font-family: "Source Serif 4", "Source Serif Pro", "Times New Roman", Georgia, serif !important;
+  color: var(--osamu-blue);
+  font-size: 0; /* Hide original text */
+}
+
+/* Style the "escaperr" part to be italic */
+body:not([data-slug="index"]) .page-title a::before {
+  content: "escaperr";
+  font-family: "Source Serif 4", "Source Serif Pro", "Times New Roman", Georgia, serif;
+  font-style: italic;
+  font-weight: 400; /* normal weight for italic part */
+  font-size: 34px;
+  color: var(--osamu-blue);
+}
+
+/* Show "'s space" part with semibold */
+body:not([data-slug="index"]) .page-title a::after {
+  content: "'s space";
+  font-family: "Source Serif 4", "Source Serif Pro", "Times New Roman", Georgia, serif;
+  font-style: normal;
+  font-weight: 600; /* semibold */
+  font-size: 34px;
+  color: var(--osamu-blue);
+}
+
+/* Create a comfortable gap between the page title block and next widgets (e.g., Search) */
+body:not([data-slug="index"]) .page-title { margin-bottom: 12px; display: inline-block; }
+
+/* ARTICLE TITLE STYLING - 62px size */
+.article-title,
+article > h1 {
+  font-size: 54px !important;
+  font-family: "Source Serif 4", "Source Serif Pro", "Times New Roman", Georgia, serif !important;
+  font-weight: 600 !important; /* semibold */
+  color: var(--dark) !important;
+  line-height: 1.2 !important;
+}
+
+/* FOLDER-SPECIFIC STYLING SYSTEM */
+/* Based on Landing.tsx card colors */
+
+/* DEFAULT (pages not matched to any folder) */
+body:not([data-slug="index"]):not([data-slug^="ai-robotics"]):not([data-slug^="science-theory"]):not([data-slug^="books-sources"]):not([data-slug^="personal-essays"]):not([data-slug^="side-quests"]) {
+  .content-meta { color: var(--osamu-blue) !important; }
+  a:not(.page-title a) { color: var(--osamu-blue) !important; }
+  .page-title a::before,
+  .page-title a::after,
+  .folder-icon { color: var(--osamu-blue) !important; }
+  /* Sync marquee gradient with default color */
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      var(--osamu-blue) 77%,
+      color-mix(in srgb, var(--osamu-blue) 70%, white) 100%
+    );
+  }
+}
+
+/* Ensure landing page keeps original blue → green gradient */
+body[data-slug="index"] .marquee {
+  background: linear-gradient(90deg, var(--osamu-blue) 77%, var(--osamu-green) 100%);
+}
+
+/* AI & ROBOTICS - card-1 - osamu-blue */
+body[data-slug^="ai-robotics"] {
+  .article-header {
+    border: 1px solid var(--osamu-blue) !important;
+    background: var(--osamu-blue) !important;
+  }
+  
+  .content-meta {
+    color: var(--osamu-blue) !important;
+  }
+
+  a:not(.page-title a) {
+    color: var(--osamu-blue) !important;
+    
+    &:hover {
+      color: rgba(1, 68, 88, 0.7) !important;
+    }
+  }
+  
+  .page-title a::before,
+  .page-title a::after,
+  .folder-icon { color: var(--osamu-blue) !important; }
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      var(--osamu-blue) 77%,
+      color-mix(in srgb, var(--osamu-blue) 70%, white) 100%
+    );
+  }
+}
+
+/* SCIENCE & THEORY - card-2 - osamu-green */  
+body[data-slug^="science-theory"] {
+  .article-header {
+    border: 1px solid var(--osamu-green) !important;
+    background: var(--osamu-green) !important;
+  }
+  
+  .content-meta {
+    color: var(--osamu-green) !important;
+  }
+
+  a:not(.page-title a) {
+    color: var(--osamu-green) !important;
+    
+    &:hover {
+      color: rgba(145, 178, 45, 0.7) !important;
+    }
+  }
+  
+  .page-title a::before,
+  .page-title a::after,
+  .folder-icon { color: var(--osamu-green) !important; }
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      var(--osamu-green) 77%,
+      color-mix(in srgb, var(--osamu-green) 70%, white) 100%
+    );
+  }
+}
+
+/* BOOKS & SOURCES - card-3 - osamu-dark-pink */
+body[data-slug^="books-sources"] {
+  .article-header {
+    border: 1px solid var(--osamu-dark-pink) !important;
+    background: var(--osamu-dark-pink) !important;
+  }
+  
+  .content-meta {
+    color: var(--osamu-dark-pink) !important;
+  }
+
+  a:not(.page-title a) {
+    color: var(--osamu-dark-pink) !important;
+    
+    &:hover {
+      color: rgba(180, 140, 140, 0.7) !important;
+    }
+  }
+  
+  .page-title a::before,
+  .page-title a::after,
+  .folder-icon { color: var(--osamu-dark-pink) !important; }
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      var(--osamu-dark-pink) 77%,
+      color-mix(in srgb, var(--osamu-dark-pink) 70%, white) 100%
+    );
+  }
+}
+
+/* PERSONAL ESSAYS - card-4 - osamu-brown */
+body[data-slug^="personal-essays"] {
+  .article-header {
+    border: 1px solid var(--osamu-brown) !important;
+    background: var(--osamu-brown) !important;
+  }
+  
+  .content-meta {
+    color: var(--osamu-brown) !important;
+  }
+
+  a:not(.page-title a) {
+    color: var(--osamu-brown) !important;
+    
+    &:hover {
+      color: rgba(67, 53, 44, 0.7) !important;
+    }
+  }
+  
+  .page-title a::before,
+  .page-title a::after,
+  .folder-icon { color: var(--osamu-brown) !important; }
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      var(--osamu-brown) 77%,
+      color-mix(in srgb, var(--osamu-brown) 70%, white) 100%
+    );
+  }
+}
+
+/* SIDE QUESTS - card-5 - osamu-black */
+body[data-slug^="side-quests"] {
+  .article-header {
+    border: 1px solid var(--osamu-black) !important;
+    background: var(--osamu-black) !important;
+  }
+  
+  .content-meta {
+    color: var(--osamu-black) !important;
+  }
+
+  a:not(.page-title a) {
+    color: var(--osamu-black) !important;
+    
+    &:hover {
+      color: rgba(4, 0, 0, 0.7) !important;
+    }
+  }
+  
+  .page-title a::before,
+  .page-title a::after,
+  .folder-icon { color: var(--osamu-black) !important; }
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      var(--osamu-black) 77%,
+      color-mix(in srgb, var(--osamu-black) 40%, white) 100%
+    );
+  }
+}
+
+/* HEADER CARD STYLING FOR FOLDER PAGES */
+.header-card {
+  width: 120px;
+  height: auto;
+  margin: 1em 0 0;
+  display: inline-block;
+  
+  .card {
+    transform: scale(0.5);
+    transform-origin: left top;
+    margin-bottom: -150px; /* Adjust for scaled size */
+    cursor: default;
+    
+    &:hover {
+      transform: scale(0.52); /* Slight hover effect */
+    }
+  }
+}
+
+/* Ensure header cards show proper images for each folder */
+body[data-slug^="ai-robotics"] .header-card .card-illustration-1,
+body[data-slug^="science-theory"] .header-card .card-illustration-2,
+body[data-slug^="books-sources"] .header-card .card-illustration-3,
+body[data-slug^="personal-essays"] .header-card .card-illustration-4,
+body[data-slug^="side-quests"] .header-card .card-illustration-5 {
+  opacity: 1 !important;
+}
+
+/* Hide color variants by default in header cards */
+body[data-slug^="ai-robotics"] .header-card .card-illustration-1-color,
+body[data-slug^="science-theory"] .header-card .card-illustration-2-color,
+body[data-slug^="books-sources"] .header-card .card-illustration-3-color,
+body[data-slug^="personal-essays"] .header-card .card-illustration-4-color,
+body[data-slug^="side-quests"] .header-card .card-illustration-5-color {
+  opacity: 0 !important;
+}
+
+/* IMPROVED CONTENT READABILITY */
+/* Base body text to 18px with comfortable line-height */
+article p,
+article li,
+article td,
+.page:not(.landing-page) p,
+.page:not(.landing-page) li,
+.page:not(.landing-page) td {
+  font-size: 18px !important;
+  line-height: 1.7 !important;
+}
+
+/* Blockquotes follow body size */
+article blockquote p,
+.page:not(.landing-page) blockquote p {
+  font-size: 18px !important;
+  line-height: 1.7 !important;
+}
+
+/* Heading scale tuned to 18px body */
+article h1 { font-size: 44px !important; line-height: 1.25; margin: 1.5rem 0 0.75rem; }
+article h2 { font-size: 34px !important; line-height: 1.3;  margin: 1.3rem 0 0.7rem; }
+article h3 { font-size: 26px !important; line-height: 1.35; margin: 1.1rem 0 0.6rem; }
+article h4 { font-size: 22px !important; line-height: 1.4;  margin: 1rem 0 0.5rem; }
+article h5 { font-size: 20px !important; line-height: 1.45; margin: 0.9rem 0 0.5rem; }
+article h6 { font-size: 18px !important; line-height: 1.5;  margin: 0.8rem 0 0.4rem; }
+
+/* Override: ensure content meta size not overridden by base paragraph rule */
+.page:not(.landing-page) p.content-meta {
+  font-size: 25px !important;
+  line-height: 1.3 !important;
+  font-family: "Caveat", var(--bodyFont);
+  margin-top: 2px !important;
+  margin-bottom: 40px !important; /* extra separation from main content */
+}
