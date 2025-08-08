@@ -134,24 +134,24 @@ a {
       flex: 1;
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 1.25rem; /* better with 16px body */
       top: 0;
       width: $sidePanelWidth;
       margin-top: calc($topSpacing + 40px);
       box-sizing: border-box;
-      padding: 0 4rem;
+      padding: 0 3rem; /* slightly slimmer */
       position: fixed;
       @media (max-width: calc($fullPageWidth)) {
         position: initial;
         flex-direction: row;
-        padding: 0;
+        padding: 0 0.75rem;
         width: initial;
         margin-top: 2rem;
       }
     }
 
     & .sidebar.left {
-      left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth - 12px);
       @media (max-width: calc($fullPageWidth)) {
         gap: 0;
         align-items: center;
@@ -159,7 +159,7 @@ a {
     }
 
     & .sidebar.right {
-      right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth - 12px);
       & > * {
         @media (max-width: calc($fullPageWidth)) {
           flex: 1;
