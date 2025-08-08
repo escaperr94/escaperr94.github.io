@@ -14,27 +14,36 @@
 
 // put your custom CSS here!
 body {
-  /* Use PNG; consider adding WebP/AVIF assets later */
-  background-image: url("/static/bg-blog.png") !important;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* Avoid fixed to reduce jank and repaint cost on scroll */
-  background-attachment: scroll;
+  /* Let the pseudo-element handle the background to ensure full-page coverage */
+  background: transparent !important;
   margin: 0;
 }
 
+/* Fixed, full-viewport background without using background-attachment: fixed on body */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url("/static/bg-blog.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
 /* Landing page specific background */
-body[data-slug="index"] {
+body[data-slug="index"]::before {
   background-image: url("/static/bg-new.png") !important;
 }
 
 /* Respect user data-saver preference: use a tiny inline gradient instead of heavy images */
 @media (prefers-reduced-data: reduce) {
-  body,
-  body[data-slug="index"] {
-    background-image: linear-gradient(180deg, #eef3f7 0%, #e6edf5 100%) !important;
-    background-attachment: scroll !important;
+  body::before,
+  body[data-slug="index"]::before {
+    background-image: none !important;
+    background: linear-gradient(180deg, #eef3f7 0%, #e6edf5 100%) !important;
   }
 }
 
