@@ -31,6 +31,11 @@ jobs:
       - name: Add robots.txt at root
         run: |
           echo "User-agent: *\nAllow: /\nSitemap: https://escaperr94.github.io/sitemap.xml" > public/robots.txt
+      - name: Move Google verification file to root
+        run: |
+          if [ -f public/static/google0b6ea17f9bf0b7e6.html ]; then
+            mv public/static/google0b6ea17f9bf0b7e6.html public/google0b6ea17f9bf0b7e6.html
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
