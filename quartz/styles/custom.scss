@@ -38,9 +38,25 @@ body[data-slug="index"]::before {
   background-image: url("/static/bg-new.png") !important;
 }
 
+/* Content pages: remove background image for stronger contrast */
+body:not([data-slug="index"]) {
+  background-color: #ffffff !important;
+}
+body:not([data-slug="index"])::before {
+  display: none !important;
+}
+
+/* Folder index pages (e.g., ai-robotics/index) keep the hero background */
+body[data-slug$="/index"] {
+  background-color: transparent !important;
+}
+body[data-slug$="/index"]::before {
+  display: block !important;
+  background-image: url("/static/bg-blog.png") !important;
+}
+
 /* Respect user data-saver preference: use a tiny inline gradient instead of heavy images */
 @media (prefers-reduced-data: reduce) {
-  body::before,
   body[data-slug="index"]::before {
     background-image: none !important;
     background: linear-gradient(180deg, #eef3f7 0%, #e6edf5 100%) !important;

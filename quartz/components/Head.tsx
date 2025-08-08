@@ -83,10 +83,8 @@ export default (() => {
         )}
         <meta name="generator" content="Quartz" />
         {/* Preload background images to speed up first paint */}
-        {isHome ? (
+        {isHome && (
           <link rel="preload" as="image" href="/static/bg-new.png" type="image/png" />
-        ) : (
-          <link rel="preload" as="image" href="/static/bg-blog.png" type="image/png" />
         )}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
