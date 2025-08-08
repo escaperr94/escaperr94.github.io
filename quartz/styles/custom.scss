@@ -417,6 +417,10 @@ body:not([data-slug="index"]):not([data-slug^="ai-robotics"]):not([data-slug^="s
   .page:not(.landing-page) cite {
     color: var(--osamu-blue) !important;
   }
+  /* Default blockquote accent */
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid var(--osamu-blue) !important;
+  }
   /* Sync marquee gradient with default color */
   .marquee {
     background: linear-gradient(
@@ -456,6 +460,10 @@ body[data-slug^="ai-robotics"] {
   .page:not(.landing-page) cite {
     color: var(--osamu-blue) !important;
   }
+  /* Blockquote accent in AI & Robotics */
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid var(--osamu-blue) !important;
+  }
   
   .page-title a::before,
   .page-title a::after,
@@ -492,6 +500,10 @@ body[data-slug^="science-theory"] {
   .page:not(.landing-page) i,
   .page:not(.landing-page) cite {
     color: var(--osamu-green) !important;
+  }
+  /* Blockquote accent in Science & Theory */
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid var(--osamu-green) !important;
   }
   
   .page-title a::before,
@@ -530,6 +542,10 @@ body[data-slug^="books-sources"] {
   .page:not(.landing-page) cite {
     color: var(--osamu-dark-pink) !important;
   }
+  /* Blockquote accent in Books & Sources */
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid var(--osamu-dark-pink) !important;
+  }
   
   .page-title a::before,
   .page-title a::after,
@@ -567,6 +583,10 @@ body[data-slug^="personal-essays"] {
   .page:not(.landing-page) cite {
     color: var(--osamu-brown) !important;
   }
+  /* Blockquote accent in Personal Essays */
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid var(--osamu-brown) !important;
+  }
   
   .page-title a::before,
   .page-title a::after,
@@ -603,6 +623,10 @@ body[data-slug^="side-quests"] {
   .page:not(.landing-page) i,
   .page:not(.landing-page) cite {
     color: var(--osamu-black) !important;
+  }
+  /* Blockquote accent in Side Quests */
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid var(--osamu-black) !important;
   }
   
   .page-title a::before,
