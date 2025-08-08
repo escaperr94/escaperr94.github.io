@@ -120,8 +120,9 @@ export function renderPage(
 
   const LandingComponent = Landing()
 
+  const pageLang = (componentData.fileData.frontmatter?.lang ?? "en").toLowerCase()
   const doc = (
-    <html>
+    <html lang={pageLang}>
       <Head {...componentData} />
       <body data-slug={slug}>
         <div class="marquee">

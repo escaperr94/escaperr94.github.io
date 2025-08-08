@@ -1,3 +1,6 @@
 User-agent: *
 Allow: /
+# Disallow private or system pages if any pattern appears
+Disallow: /private/
+Disallow: /drafts/
 Sitemap: https://escaperr94.github.io/sitemap.xml

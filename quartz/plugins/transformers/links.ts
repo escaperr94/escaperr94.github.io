@@ -56,10 +56,26 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
 
                 if (opts.openLinksInNewTab) {
                   node.properties.target = "_blank"
+                  // strengthen security and SEO hints
+                  const currentRel = Array.isArray(node.properties.rel)
+                    ? (node.properties.rel as string[])
+                    : typeof node.properties.rel === "string"
+                    ? (node.properties.rel as string).split(" ")
+                    : []
+                  node.properties.rel = Array.from(new Set([...currentRel, "noopener", "noreferrer"]))
                 }
 
                 // don't process external links or intra-document anchors
                 const isInternal = !(isAbsoluteUrl(dest) || dest.startsWith("#"))
+                const isExternal = !isInternal && isAbsoluteUrl(dest)
+                if (isExternal) {
+                  const currentRel = Array.isArray(node.properties.rel)
+                    ? (node.properties.rel as string[])
+                    : typeof node.properties.rel === "string"
+                    ? (node.properties.rel as string).split(" ")
+                    : []
+                  node.properties.rel = Array.from(new Set([...currentRel, "external", "nofollow", "noopener", "noreferrer"]))
+                }
                 if (isInternal) {
                   dest = node.properties.href = transformLink(
                     file.data.slug!,

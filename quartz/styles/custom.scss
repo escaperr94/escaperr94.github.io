@@ -635,3 +635,16 @@ article h6 { font-size: 18px !important; line-height: 1.5;  margin: 0.8rem 0 0.4
   margin-top: 2px !important;
   margin-bottom: 40px !important; /* extra separation from main content */
 }
+
+/* Sharper, higher-contrast math (KaTeX/MathJax) */
+.katex,
+.katex *,
+.math {
+  color: var(--dark) !important;
+  fill: var(--dark) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.katex-display { margin: 1rem 0 1rem 0; }
