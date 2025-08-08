@@ -603,7 +603,7 @@ body[data-slug^="side-quests"] .header-card .card-illustration-5-color {
 article p,
 article li,
 article td,
-.page:not(.landing-page) p,
+.page:not(.landing-page) p:not(.content-meta),
 .page:not(.landing-page) li,
 .page:not(.landing-page) td {
   font-size: 18px !important;
