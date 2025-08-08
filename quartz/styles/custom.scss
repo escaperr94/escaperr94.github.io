@@ -411,6 +411,12 @@ body:not([data-slug="index"]):not([data-slug^="ai-robotics"]):not([data-slug^="s
   .page-title a::before,
   .page-title a::after,
   .folder-icon { color: var(--osamu-blue) !important; }
+  /* Default italic elements adopt the section accent color */
+  .page:not(.landing-page) em,
+  .page:not(.landing-page) i,
+  .page:not(.landing-page) cite {
+    color: var(--osamu-blue) !important;
+  }
   /* Sync marquee gradient with default color */
   .marquee {
     background: linear-gradient(
@@ -444,6 +450,12 @@ body[data-slug^="ai-robotics"] {
       color: rgba(1, 68, 88, 0.7) !important;
     }
   }
+  /* Italic elements in AI & Robotics */
+  .page:not(.landing-page) em,
+  .page:not(.landing-page) i,
+  .page:not(.landing-page) cite {
+    color: var(--osamu-blue) !important;
+  }
   
   .page-title a::before,
   .page-title a::after,
@@ -474,6 +486,12 @@ body[data-slug^="science-theory"] {
     &:hover {
       color: rgba(145, 178, 45, 0.7) !important;
     }
+  }
+  /* Italic elements in Science & Theory */
+  .page:not(.landing-page) em,
+  .page:not(.landing-page) i,
+  .page:not(.landing-page) cite {
+    color: var(--osamu-green) !important;
   }
   
   .page-title a::before,
@@ -506,6 +524,12 @@ body[data-slug^="books-sources"] {
       color: rgba(180, 140, 140, 0.7) !important;
     }
   }
+  /* Italic elements in Books & Sources */
+  .page:not(.landing-page) em,
+  .page:not(.landing-page) i,
+  .page:not(.landing-page) cite {
+    color: var(--osamu-dark-pink) !important;
+  }
   
   .page-title a::before,
   .page-title a::after,
@@ -537,6 +561,12 @@ body[data-slug^="personal-essays"] {
       color: rgba(67, 53, 44, 0.7) !important;
     }
   }
+  /* Italic elements in Personal Essays */
+  .page:not(.landing-page) em,
+  .page:not(.landing-page) i,
+  .page:not(.landing-page) cite {
+    color: var(--osamu-brown) !important;
+  }
   
   .page-title a::before,
   .page-title a::after,
@@ -567,6 +597,12 @@ body[data-slug^="side-quests"] {
     &:hover {
       color: rgba(4, 0, 0, 0.7) !important;
     }
+  }
+  /* Italic elements in Side Quests */
+  .page:not(.landing-page) em,
+  .page:not(.landing-page) i,
+  .page:not(.landing-page) cite {
+    color: var(--osamu-black) !important;
   }
   
   .page-title a::before,
