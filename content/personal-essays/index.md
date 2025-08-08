@@ -4,10 +4,7 @@ description: Honest reflections, stray thoughts, and the scars
 volume: "004"
 ---
 
-<div class="section-header">
 A collection of personal reflections, experiences, and insights gathered along my journey through technology, science, and life.
-
-</div>
 
 ## Featured Essays
 

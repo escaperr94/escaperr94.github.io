@@ -4,12 +4,7 @@ description: Odd obsessions and unfinished dreams
 volume: "005"
 ---
 
-<div class="section-header">
-# Side Quests
-
 A collection of experimental projects, creative explorations, and interesting tangents that don't fit neatly into other categories.
-
-</div>
 
 ## Active Quests
 

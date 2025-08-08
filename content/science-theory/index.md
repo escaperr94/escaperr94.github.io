@@ -4,13 +4,7 @@ description: Deep dives into math, physics, biology, computer science and the hi
 volume: "002"
 ---
 
-<div class="section-header">
-
-# Science & Theory
-
 Exploring the fundamental principles that govern our universe - from mathematical concepts to physical laws.
-
-</div>
 
 ## Featured Posts
 

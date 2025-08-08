@@ -4,12 +4,7 @@ description: A curated library of texts, references, and rare ideas that shaped 
 volume: "003"
 ---
 
-<div class="section-header">
-# Books & Sources
-
 A carefully curated collection of transformative books, academic papers, and hidden gems that have shaped my understanding and perspective.
-
-</div>
 
 ## Reading Lists
 
