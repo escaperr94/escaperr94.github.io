@@ -5,6 +5,10 @@
   max-width: 14rem;
   flex-grow: 0.3;
 
+  @media (max-width: 768px) {
+    max-width: 10rem;
+  }
+
   & > #search-icon {
     background-color: var(--lightgray);
     border-radius: 4px;
@@ -21,6 +25,10 @@
     & > p {
       display: inline;
       padding: 0 1rem;
+      @media (max-width: 768px) {
+        font-size: 12px;
+        padding: 0 0.6rem;
+      }
     }
 
     & svg {
@@ -28,6 +36,10 @@
       width: 18px;
       min-width: 18px;
       margin: 0 0.5rem;
+      @media (max-width: 768px) {
+        width: 16px;
+        min-width: 16px;
+      }
 
       .search-path {
         stroke: var(--darkgray);

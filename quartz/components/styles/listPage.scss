@@ -20,10 +20,14 @@ li.section-li {
     }
 
     & > .desc > h3 {
-      /* Make titles a bit larger for better hierarchy */
+      /* Desktop size */
       font-size: 22px;
       line-height: 1.35;
       margin: 0;
+      @media (max-width: 768px) {
+        font-size: 15px !important; /* slightly above body */
+        line-height: 1.4;
+      }
     }
 
     & > .desc > h3 > a {
@@ -37,6 +41,10 @@ li.section-li {
       font-family: "Caveat", var(--bodyFont);
       font-size: 28px;
       line-height: 1.2;
+      @media (max-width: 768px) {
+        font-size: 14px !important; /* align with body */
+        line-height: 1.2;
+      }
     }
   }
 }

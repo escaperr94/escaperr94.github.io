@@ -22,3 +22,30 @@
   justify-content: center;
   text-transform: uppercase;
 }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .breadcrumb-container {
+    gap: 0.25rem;
+    font-size: 12px;
+    line-height: 1.4;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .breadcrumb-element {
+    /* Tighter separator spacing */
+    p { margin-left: 0.25rem; }
+
+    /* Truncate long folder/post names while keeping them clickable */
+    a {
+      display: inline-block;
+      max-width: 55vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
