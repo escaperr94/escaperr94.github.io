@@ -74,7 +74,8 @@ a {
 
 .desktop-only {
   display: revert;
-  @media all and (max-width: $fullPageWidth) {
+  /* Use an em-based breakpoint so zooming doesn't immediately collapse layout */
+  @media (max-width: calc($fullPageWidth)) {
     display: none;
   }
 }
@@ -125,7 +126,7 @@ a {
   & > #quartz-body {
     width: 100%;
     display: flex;
-    @media all and (max-width: $fullPageWidth) {
+    @media (max-width: calc($fullPageWidth)) {
       flex-direction: column;
     }
 
@@ -140,7 +141,7 @@ a {
       box-sizing: border-box;
       padding: 0 4rem;
       position: fixed;
-      @media all and (max-width: $fullPageWidth) {
+      @media (max-width: calc($fullPageWidth)) {
         position: initial;
         flex-direction: row;
         padding: 0;
@@ -151,7 +152,7 @@ a {
 
     & .sidebar.left {
       left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
-      @media all and (max-width: $fullPageWidth) {
+      @media (max-width: calc($fullPageWidth)) {
         gap: 0;
         align-items: center;
       }
@@ -160,7 +161,7 @@ a {
     & .sidebar.right {
       right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       & > * {
-        @media all and (max-width: $fullPageWidth) {
+        @media (max-width: calc($fullPageWidth)) {
           flex: 1;
         }
       }
@@ -170,7 +171,7 @@ a {
   & .page-header {
     width: $pageWidth;
     margin: $topSpacing auto 0 auto;
-    @media all and (max-width: $fullPageWidth) {
+    @media (max-width: calc($fullPageWidth)) {
       width: initial;
       margin-top: 2rem;
     }
@@ -181,7 +182,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: $pageWidth;
-    @media all and (max-width: $fullPageWidth) {
+    @media (max-width: calc($fullPageWidth)) {
       width: initial;
       margin-left: 0;
       margin-right: 0;
