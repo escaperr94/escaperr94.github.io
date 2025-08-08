@@ -599,7 +599,7 @@ body[data-slug^="side-quests"] .header-card .card-illustration-5-color {
 }
 
 /* IMPROVED CONTENT READABILITY */
-/* Base body text to 18px with comfortable line-height */
+/* Base body text to 18px with comfortable line-height and darker color */
 article p,
 article li,
 article td,
@@ -608,13 +608,15 @@ article td,
 .page:not(.landing-page) td {
   font-size: 18px !important;
   line-height: 1.7 !important;
+  color: var(--dark) !important; /* increase contrast for normal text */
 }
 
-/* Blockquotes follow body size */
+/* Blockquotes follow body size and color */
 article blockquote p,
 .page:not(.landing-page) blockquote p {
   font-size: 18px !important;
   line-height: 1.7 !important;
+  color: var(--dark) !important;
 }
 
 /* Heading scale tuned to 18px body */
