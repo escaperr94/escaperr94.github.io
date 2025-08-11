@@ -30,7 +30,7 @@ thì tôi quyết định "lọt hố" và tìm cách "vấy bẩn" cái hàm c�
 
 **Chú ý**: Để giải thích cho sự thù địch của tôi với con hàm **Softmax** mời bạn đọc phần I của bài viết, hoặc nếu bạn không thích có thể skip và đọc luôn phần II nếu chỉ muốn hiểu tại sao các mô hình AI hiện nay đều sử dụng con hàm này. 
 ## Sự thù địch của tôi với con hàm $e^x$
-#### Một nửa lý do (hoàn toàn khách quan và không hề có tư thù cá nhân)
+### Một nửa lý do (hoàn toàn khách quan và không hề có tư thù cá nhân)
 Tôi vốn là đứa khá thích Toán (dù trình Toán như loèn), thứ tôi thích ở nó là sự phức tạp, khó hiểu nhưng ẩn đằng sau là nét tinh tế, đẹp đẽ của những khuôn mẫu tự nhiên. Với tôi, toán học là ngôn ngữ của Chúa, là cây cầu kết nối ta với vẻ đẹp kỹ vĩ của thiên nhiên, tạo hóa; phản ánh sự thay đổi, kết cấu siêu hình của vũ trụ, ... nhưng trong vẻ đẹp đầy tráng lệ ấy lòi ra con hàm $e^x$.
 Bạn không tin là nó dở người vãi đái ư, vậy để tôi chứng minh cho bạn thấy với bài thơ sau
 
@@ -64,7 +64,7 @@ Bạn không tin là nó dở người vãi đái ư, vậy để tôi chứng m
 Bản chất của tự nhiên luôn thay đổi nhưng cái hàm kiêu ngạo của nợ này nó del chịu thay đổi tí nào cả, chưa kể tại vì cái hàm chết tiệt này mà trong kỳ thi THPTQG tôi sai ngu m* mất 1 câu vì bấm nhầm $e^x$ thành $2^x$ (Cũng không trách tôi được vì tôi là dân châu Á bấm A rồi cùng lắm là B chứ tự nhiên bảo bấm vào $e$ thường thì thật là có lỗi với tổ tiên).
 
 Còn gì tệ hàm một hàm $e^x$ ngoài một hàm cấu tạo bởi nhiều hàm dạng $e^x$ - Vâng đó chính là lý do tôi ghét **Softmax** vaidai.
-#### Nửa còn lại ...
+### Nửa còn lại ...
 $e^x$ thực sự là một hàm không mấy "thân thiện" với máy tính và cực kỳ dễ tràn số. Thật vậy, bạn hãy thử đoạn code sau
 ```python
 torch.exp(torch.Tensor([100.0]))
@@ -84,7 +84,7 @@ Ngoài ra, rõ ràng nếu vai trò của lớp **Softmax** là chuyển *logit*
 Sau mấy hôm ngồi tìm tòi, xem YouTube, đọc blog chỗ này chỗ kia thay vì làm bài trên lớp thì cuối cùng tôi cũng tìm ra lý do đủ thỏa đáng để trả lời thắc mắc vớ vẩn trên, không dài dòng nữa ta cùng bắt đầu vào phần chính.
 
 ## Vì sao hàm Softmax lại được sử dụng ?
-#### Vì sao dùng $\frac{u(a)}{\sum_{a'\in A}u(a')}$
+### Vì sao dùng $\frac{u(a)}{\sum_{a'\in A}u(a')}$
 Do tôi vẫn khá kỳ thị con hàm $e^x$ nên tôi sẽ bắt đầu với lý do vì sao việc **Softmax** mô hình hóa dưới dạng 
 $$
 \frac{u(a)}{\sum_{a'\in A}u(a')}
@@ -144,7 +144,7 @@ Như vậy dạng $\frac{u(a)}{\sum_{a'\in A}u(a')}$ giúp đảm bảo việc l
 
 Đến đây, ta lại đặt ra một câu hỏi khác: Vậy nếu ta muốn mô hình hóa lớp bài toán mà ở đó việc lựa chọn giữa hai đối tượng bất kỳ thay đổi với sự có mặt của các đối tượng khác thì làm như nào ? Ví dụ ta có bài toán **Image tagging** với 3 đối tượng: $Beach, Sunset, Ocean$ rõ ràng sự có mặt của $Ocean$ tăng *likelihood* (khả năng xảy ra) của $Beach$ và từ đó làm thay đổi tỉ số giữa $\frac{P(Beach)}{P(Sunset)}$. Với lớp bài toán này người ta sử dụng dạng hàm **Hierarchical Softmax** mà tôi sẽ nói tới trong những bài tiếp theo khi dùng hàm này để tối ưu cho mô hình **Word2Vec**.
 
-#### Vì sao lại dùng $e^x$
+### Vì sao lại dùng $e^x$
 Pheww... cuối cùng cũng tới lý do phải dùng tới hàm của nợ này. Trước hết trong các bài toán Học máy nói chung mục tiêu của ta là phải tôi ưu một hàm loss kiểu $L(y, f(s))$. Xét một bài toán phân loại đa lớp, $y$ là one-hot vector của các class còn $f(s)$ là đầu ra của hàm **Softmax** ($\sigma(s))$ với $s$ là *logits*.
 Để tối ưu hàm trên thông thường ta sẽ phải tính gradient 
 $$
