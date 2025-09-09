@@ -16,7 +16,6 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 <iframe
   src="https://www.youtube.com/embed/RMaWvielZho"
   width="700"
-  height="70"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   >
 </iframe>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-essays/gattaca.md",
+                "file": "personal-essays/index.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "gattaca"
+              "title": "index"
             }
           }
         ]
@@ -168,8 +168,8 @@
   },
   "active": "e0d2a2544b3eef7d",
   "lastOpenFiles": [
-    "ai-robotics/introduction-softmax.md",
     "personal-essays/gattaca.md",
+    "ai-robotics/introduction-softmax.md",
     "personal-essays/gattaca2.md",
     "Pasted image 20250909211237.png",
     "Pasted image 20250909204406.png",
