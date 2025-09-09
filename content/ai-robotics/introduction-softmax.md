@@ -2,8 +2,8 @@
 title: Tôi đã hiểu nhầm em - Softmax
 draft: false
 date: 2024-11-07
-tags:
-  - Machine Learning
+tags: 
+- Machine Learning
 ---
 
 Với bất cứ ai học về Machine Learning, chắc chắn hàm số sau đã in hằn trong đầu bạn
