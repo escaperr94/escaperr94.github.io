@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-essays/index.md",
+                "file": "personal-essays/gattaca.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "gattaca"
             }
           }
         ]
@@ -168,6 +168,7 @@
   },
   "active": "e0d2a2544b3eef7d",
   "lastOpenFiles": [
+    "personal-essays/index.md",
     "personal-essays/gattaca.md",
     "ai-robotics/introduction-softmax.md",
     "personal-essays/gattaca2.md",
@@ -180,7 +181,6 @@
     "misc/index.md",
     "ai-robotics/neural-networks.md",
     "books-sources/index.md",
-    "personal-essays/index.md",
     "about/index.md"
   ]
 }
