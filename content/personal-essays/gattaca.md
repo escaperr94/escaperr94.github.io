@@ -171,7 +171,7 @@ Và cũng từ trong sự lạc lối ấy, tôi tìm thấy tiếng vọng cho 
 **Ta là ai?** Khoa học đưa ra một đáp án lạnh lùng: ta là tập hợp nguyên tử, từng nung chảy trong lòng các vì sao rồi tình cờ kết tụ. Nhưng biết mình là bụi sao không làm ta bé nhỏ; trái lại, nó mở ra viễn tượng: nếu sinh ra từ tinh tú, ta cũng mang trong mình tiềm năng để vươn tới bất cứ điều gì.
 > *"Ta là tất cả những gì vũ trụ gửi gắm"* 
 
-**Ta muốn gì?** Có lẽ, ta chỉ muốn sống tự do theo lựa chọn của chính mình – tự do học hỏi, trưởng thành, và tiến gần đến hình bóng lý tưởng trong tâm tưởng. Hầu hết khát vọng cuối cùng đều quy về hai điều giản dị: giảm bớt khổ đau và mở rộng tự do. Ấy chính là cốt lõi của việc làm người.
+**Ta muốn gì?** Có lẽ, ta chỉ muốn sống tự do theo lựa chọn của chính mình - tự do học hỏi, trưởng thành, và tiến gần đến hình bóng lý tưởng trong tâm tưởng. Hầu hết khát vọng cuối cùng của nhân loại đều quy về hai điều giản dị: giảm bớt khổ đau và mở rộng tự do. Ấy theo tôi chính là cốt lõi của việc làm người.
 
 Từ nhỏ, tôi đã mang trong lòng một niềm tin giản dị: không ai sinh ra đã cao hơn hay thấp kém hơn ai. Tôi tìm thấy sự đồng vọng trong lời [Fukuzawa Yukichi](https://www.wikiwand.com/vi/articles/Fukuzawa_Yukichi) - nhà tư tưởng khai sáng Nhật Bản thế kỷ 19 - câu nói như một ngọn đèn bất diệt:  
 
