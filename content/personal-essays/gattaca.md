@@ -171,7 +171,7 @@ Và cũng từ trong sự lạc lối ấy, tôi tìm thấy tiếng vọng cho 
 
 **Ta muốn gì?** Có lẽ, ta chỉ muốn sống tự do theo lựa chọn của chính mình – tự do học hỏi, trưởng thành, và tiến gần đến hình bóng lý tưởng trong tâm tưởng. Hầu hết khát vọng cuối cùng đều quy về hai điều giản dị: giảm bớt khổ đau và mở rộng tự do. Ấy chính là cốt lõi của việc làm người.
 
-Từ nhỏ, tôi đã mang trong lòng một niềm tin giản dị: không ai sinh ra đã cao hơn hay thấp kém hơn ai. Tôi tìm thấy sự đồng vọng trong lời **Fukuzawa Yukichi** - nhà tư tưởng khai sáng Nhật Bản thế kỷ 19 - câu nói như một ngọn đèn bất diệt:  
+Từ nhỏ, tôi đã mang trong lòng một niềm tin giản dị: không ai sinh ra đã cao hơn hay thấp kém hơn ai. Tôi tìm thấy sự đồng vọng trong lời [Fukuzawa Yukichi](https://www.wikiwand.com/vi/articles/Fukuzawa_Yukichi) - nhà tư tưởng khai sáng Nhật Bản thế kỷ 19 - câu nói như một ngọn đèn bất diệt:  
 
 > *“Trời không sinh ra người đứng trên người, cũng không sinh ra người đứng dưới người.”*  
 
@@ -188,3 +188,5 @@ https://www.goodreads.com/quotes/159397-everything-is-determined-the-beginning-a
 https://thanhnien.vn/lao-dong-tren-35-tuoi-tim-viec-khi-bi-xem-la-gia-va-dinh-kien-vo-hinh-18525071720465034.html
 
 https://www.economist.com/1843/2019/04/29/the-curse-of-genius
+
+https://www.wikiwand.com/vi/articles/Fukuzawa_Yukichi
