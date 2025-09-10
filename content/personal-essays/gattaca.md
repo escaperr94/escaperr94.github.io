@@ -137,7 +137,7 @@ Trong khoảnh khắc đó, ranh giới giữa định mệnh và lựa chọn t
 
 ## Góc nhìn khác  
 
-Tất nhiên, sẽ thật là nông cạn nếu chỉ nhìn Vincent như một anh hùng của câu chuyện - kẻ đã chiến thắng số phận và chứng minh “ý chí con người vượt lên tất cả.” Nhưng sự việc nào đâu có đơn giản đến thế. Ở một góc nhìn khác, những tiêu chuẩn mà xã hội *Gattaca* đặt ra - dù khắc nghiệt - cũng không phải không có lý do: chúng được xây dựng để tối đa hóa an toàn, hiệu suất, để loại bỏ rủi ro từ những “khiếm khuyết” di truyền.  
+Tất nhiên, sẽ thật là nông cạn nếu chỉ nhìn Vincent như một anh hùng của câu chuyện - kẻ đã chiến thắng số phận và chứng minh “ý chí con người vượt lên tất cả.” Nhưng sự việc nào đâu có đơn giản đến thế. Ở một góc nhìn khác, những tiêu chuẩn mà xã hội *Gattaca* đặt ra, dù khắc nghiệt, cũng không phải không có lý do: chúng được xây dựng để tối đa hóa an toàn, hiệu suất, để loại bỏ rủi ro từ những “khiếm khuyết” di truyền.  
 
 Nếu ta thử đặt câu hỏi: Vincent có thực sự xứng đáng ngồi trong khoang phi thuyền? Anh đã che giấu bệnh tim, đã mạo hiểm đem một cơ thể “khiếm khuyết” vào chuyến bay - nơi mà một sai sót nhỏ cũng có thể trả giá bằng tính mạng của cả phi hành đoàn. Ở góc nhìn ấy, Vincent không hẳn là anh hùng, mà là kẻ đang đặt mục tiêu cá nhân lên trên sự an toàn của tập thể.  
 
