@@ -15,7 +15,7 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 >Một vài đoạn có thể khiến bạn cảm thấy tiêu cực, nhưng xin nhớ: đây vẫn là một blog muốn truyền đạt về niềm tin và hy vọng.
 # Gattaca 
 <iframe
-  src="https://www.youtube.com/embed/RMaWvielZho"
+  src="https://www.youtube.com/embed/RMaWvielZho&loop=1"
   width="900"
   height="350"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
