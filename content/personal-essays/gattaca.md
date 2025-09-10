@@ -182,6 +182,9 @@ Và đến cuối cùng, tôi nhận ra mình chẳng cần một lời giải t
 
 # References
 https://www.wikiwand.com/en/articles/Gattaca
+
 https://www.goodreads.com/quotes/159397-everything-is-determined-the-beginning-as-well-as-the-end?utm
+
 https://thanhnien.vn/lao-dong-tren-35-tuoi-tim-viec-khi-bi-xem-la-gia-va-dinh-kien-vo-hinh-18525071720465034.html
+
 https://www.economist.com/1843/2019/04/29/the-curse-of-genius
