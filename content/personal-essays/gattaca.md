@@ -97,10 +97,10 @@ Trong giáo dục cũng vậy: điều kiện gia đình nhiều khi chính là 
 
 Chính trong bối cảnh ấy, ước mơ và ý chí mới trở thành một thứ vừa phi lý vừa không thể thiếu. Phi lý, vì mọi dữ kiện đều chống lại nó: gen của Vincent báo trước tuổi thọ ngắn ngủi, xã hội đóng chặt mọi cánh cửa, ngay cả gia đình cũng không đặt kỳ vọng nơi anh. Nhưng cũng không thể thiếu, bởi nếu từ bỏ ước mơ, anh chẳng còn lý do nào để tồn tại ngoài việc chấp nhận một cuộc đời nhỏ bé đã được định sẵn. Ước mơ trở thành thứ duy nhất níu giữ anh lại với chính mình, là ngọn lửa để anh không bị nuốt chửng bởi bản án di truyền.  
 
-Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nhân dọn vệ sinh trong trung tâm vũ trụ Gattaca - công việc thấp kém nhất - chỉ để mỗi ngày được nhìn thấy con tàu mà anh khao khát một lần đặt chân lên. Người khác nhìn anh như kẻ đáng thương, nhưng với Vincent, đó chính là cách để giữ giấc mơ luôn trong tầm mắt dẫu cho với anh nó thật sự quá xa vời đến mức anh phải thốt lên rằng:
-
 ![[Pasted image 20250909204406.png | 900]]
 <p style="text-align: center; margin-top:-30px"><em>Vincent đi dọn vệ sinh bên cạnh trung tâm vũ trụ Gattaca</em></p>
+
+Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nhân dọn vệ sinh trong trung tâm vũ trụ Gattaca - công việc thấp kém nhất - chỉ để mỗi ngày được nhìn thấy con tàu mà anh khao khát một lần đặt chân lên. Người khác nhìn anh như kẻ đáng thương, nhưng với Vincent, đó chính là cách để giữ giấc mơ luôn trong tầm mắt dẫu cho với anh nó thật sự quá xa vời đến mức anh phải thốt lên rằng:
 
 > *"I was never more certain of how far away I was from my goal than when I was standing right beside it."*
 > 
@@ -140,7 +140,7 @@ Khoảnh khắc cuối, khi con tàu rời bệ phóng, lời tự sự của Vi
 
 Một kẻ vốn “không được sinh ra cho thế giới này” cuối cùng lại tìm thấy nơi thuộc về mình giữa những vì sao. Ẩn dụ “trở về nhà” không chỉ là lời chào vĩnh biệt, mà còn là sự hòa giải: từ cát bụi đến tinh tú, từ gen đến ý chí, từ giới hạn đến tự do.  
 
-Trong khoảnh khắc đó, ranh giới giữa định mệnh và lựa chọn tan biến. Vincent không phá vỡ hoàn toàn bức tường, nhưng anh đã tìm được khe nứt, dồn tất cả vào một cú bứt phá - và bước qua nó. Ở bên kia bức tường ấy, không chỉ có vũ trụ, mà còn có minh chứng: **There is no gene for the human spirit.**  
+Trong khoảnh khắc đó, ranh giới giữa định mệnh và lựa chọn tan biến. Vincent không phá vỡ hoàn toàn bức tường, nhưng anh đã tìm được khe nứt, dồn tất cả vào một cú bứt phá - và bước qua nó. Ở bên kia bức tường ấy, không chỉ có vũ trụ, mà còn có minh chứng: **There is no gene for the human spirit.** - đây cũng chính là slogan chính của phim. 
 
 
 ## Góc nhìn khác  
