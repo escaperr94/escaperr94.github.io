@@ -28,7 +28,7 @@ Gattaca là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một t
 
 
 ![[Pasted image 20250909182127.png | 900]]
-<p style="text-align: center;"><em> Thoại của một bác sỹ trong phim</em></p>
+<p style="text-align: center; margin-top:-20px"><em> Thoại của một bác sỹ trong phim</em></p>
 
 
 > Simply the best of you 
@@ -113,8 +113,8 @@ Nếu Vincent cần Jerome để mượn danh tính bước qua cánh cổng “
 
 Jerome là thân xác lý tưởng nhưng rỗng niềm tin; Vincent là ý chí sắt đá trong một cơ thể khiếm khuyết. Họ bám vào nhau như hai mảnh vỡ của cùng một bản thể: Vincent tiến về phía trước bằng khát vọng, còn Jerome tìm lại ý nghĩa đời mình khi trở thành chiếc cầu nối cho ước mơ ấy.
 
->[!info]
-> Trong phim Vincent giả danh thành Jerome với sự trợ giúp của chính Jerome để vượt qua các bài xét nghiệm máu, nước tiểu để lấy gen. Mỗi ngày Jerome đều chuẩn bị da chết, máu, nước tiểu để Vincent giả dạng qua các cửa kiểm soát của cơ quan hàng không vũ trụ Gattaca
+>[!info] 
+>Trong phim Vincent giả danh thành Jerome với sự trợ giúp của chính Jerome để vượt qua các bài xét nghiệm máu, nước tiểu để lấy gen. Mỗi ngày Jerome đều chuẩn bị da chết, máu, nước tiểu để Vincent giả dạng qua các cửa kiểm soát của cơ quan hàng không vũ trụ Gattaca
 > 
 >Chi tiết, nội dung và nhiều tầng ý nghĩa của bộ phim bạn nên thực sự xem phim để hiểu rõ hơn
 
