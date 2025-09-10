@@ -140,7 +140,7 @@ Khoảnh khắc cuối, khi con tàu rời bệ phóng, lời tự sự của Vi
 
 Một kẻ vốn “không được sinh ra cho thế giới này” cuối cùng lại tìm thấy nơi thuộc về mình giữa những vì sao. Ẩn dụ “trở về nhà” không chỉ là lời chào vĩnh biệt, mà còn là sự hòa giải: từ cát bụi đến tinh tú, từ gen đến ý chí, từ giới hạn đến tự do.  
 
-Trong khoảnh khắc đó, ranh giới giữa định mệnh và lựa chọn tan biến. Vincent không phá vỡ hoàn toàn bức tường, nhưng anh đã tìm được khe nứt, dồn tất cả vào một cú bứt phá - và bước qua nó. Ở bên kia bức tường ấy, không chỉ có vũ trụ, mà còn có minh chứng: **There is no gene for the human spirit.** - đây cũng chính là slogan chính của phim. 
+Trong khoảnh khắc đó, ranh giới giữa định mệnh và lựa chọn tan biến. Vincent không phá vỡ hoàn toàn bức tường, nhưng anh đã tìm được khe nứt, dồn tất cả vào một cú bứt phá - và bước qua nó. Ở bên kia bức tường ấy, không chỉ có vũ trụ, mà còn có minh chứng: **"There is no gene for the human spirit"** (đây cũng chính là slogan của phim) .
 
 
 ## Góc nhìn khác  
