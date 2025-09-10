@@ -36,7 +36,7 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 > 
 > Tạm dịch: *"Đứa trẻ được sinh ra chắc chắn là tập hợp những gì tốt nhất từ gen của 2 người. Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy"*
 > 
-> *Trích lời một bác sỹ trong phim*
+> *(Trích lời một bác sỹ trong phim)*
 
 Trong một thế giới như vậy chỉ có kẻ điên hoặc thiếu tiền mới đẻ con một cách tự nhiên mà không qua can thiệp gen!
 
