@@ -96,7 +96,7 @@ Chính trong bối cảnh ấy, ước mơ và ý chí mới trở thành một 
 Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nhân dọn vệ sinh trong trung tâm vũ trụ Gattaca - công việc thấp kém nhất - chỉ để mỗi ngày được nhìn thấy con tàu mà anh khao khát một lần đặt chân lên. Người khác nhìn anh như kẻ đáng thương, nhưng với Vincent, đó chính là cách để giữ giấc mơ luôn trong tầm mắt dẫu cho với anh nó thật sự quá xa vời.
 
 ![[Pasted image 20250909204406.png | 900]]
-<p style="text-align: center; margin-top:-30px"><em></em>Vincent đi dọn vệ sinh bên cạnh trung tâm vũ trụ Gattaca</p>
+<p style="text-align: center; margin-top:-30px"><em>Vincent đi dọn vệ sinh bên cạnh trung tâm vũ trụ Gattaca</em></p>
 
 > *"I was never more certain of how far away I was from my goal than when I was standing right beside it."*
 
