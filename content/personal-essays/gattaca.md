@@ -31,11 +31,11 @@ Gattaca là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một t
 <p style="text-align: center;"><em> Thoại của một bác sỹ trong phim</em></p>
 
 
-> Simply the best of you (Đứa trẻ chắc chắn là tập hợp những gì tốt nhất từ gen của bố mẹ)
+> Simply the best of you 
+> You could conceive naturally 1,000 times and never get such a result 
+> Tạm dịch: Đứa trẻ được sinh ra chắc chắn là tập hợp những gì tốt nhất từ gen của 2 người. Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy
 > 
-> You could conceive naturally 1,000 times and never get such a result (Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy)
-> 
-> _*Trích lời một bác sỹ trong phim*
+> *Trích lời một bác sỹ trong phim*
 
 Trong một thế giới như vậy chỉ có kẻ điên hoặc thiếu tiền mới đẻ con một cách tự nhiên mà không qua can thiệp gen!
 
@@ -67,6 +67,7 @@ Người ta thường nói: “Chỉ cần cố gắng, bạn sẽ thành công�
 “Anton” là cái tên mà cha Vincent muốn dành cho đứa con trai mà ông có thể tự hào. Nhưng đáng tiếc, ngay từ khi chào đời, Vincent đã khiến ông thất vọng đến mức cái tên ấy bị tước khỏi anh ngay tức khắc.  Rút kinh nghiệm từ Vincent, cha mẹ anh quyết định sử dụng kỹ thuật gen để sinh thêm một đứa trẻ với bộ gen hoàn hảo - và nó được đặt tên là Anton. Từ thuở bé, Anton luôn nhận nhiều sự chú ý hơn hẳn Vincent; và hiển nhiên trong bất cứ trò chơi hay cuộc thi nào, Vincent đều là kẻ thua cuộc khi đặt lên bàn cân với Anton. 
 ![[Pasted image 20250909200548.png|900]]
 <p style="text-align: center;"><em>Vincent hoàn toàn thua thiệt Anton về mọi mặt dù sinh trước</em></p>
+
 Và đó mới là cái cay đắng nhất: bất kể Vincent cố gắng đến đâu, cái kết dường như đã được định sẵn. Anh không thể cao thêm chỉ bằng ý chí, không thể làm trái tim mình đập khỏe hơn, cũng không thể giành lại ánh nhìn vốn mặc định thuộc về Anton. Giống như bị giam trong một chiếc lồng vô hình - càng giãy giụa lại càng thấy rõ song sắt. Ngoài đời thực, chúng ta cũng thường rơi vào tình thế ấy. Có những giới hạn tưởng như đã được đóng khung: chiều cao, trí tuệ, xuất thân, sức khỏe, hay cả những ràng buộc vô hình từ xã hội. Ta vùng vẫy, nhưng càng cố lại càng thấy rõ bức tường. Đôi khi, sự bất lực ấy làm ta tự hỏi rằng có những cuộc chơi mà bản thân mình sinh ra liệu mình sinh ra vốn dĩ chỉ để sắm vai kẻ thất bại? Einstein từng nói
 > *Everything is determined, the beginning as well as the end, by forces over which we have no control. It is determined for the insect, as well as for the star. Human beings, vegetables, or cosmic dust, we all dance to a mysterious tune, intoned in the distance by an invisible piper*
 
@@ -85,7 +86,7 @@ Và biết đâu, chính từ những khe hở vi tế ấy mà ý chí nảy si
 
 Chính vì lớn lên trong một nơi ngột ngạt đến mức gần như chẳng còn chỗ nào dành cho mình mà Vincent nuôi một ước mơ điên rồ: **bay lên những vì sao**. Trong xã hội *Gattaca*, đó không chỉ là một giấc mơ xa vời - nó gần như là một tội lỗi. Ở đó, người ta không đánh giá bạn bằng nỗ lực hay kinh nghiệm; chỉ cần một giọt máu, một mẫu nước tiểu là đủ để quyết định cả tương lai. Với một kẻ “in-valid” như Vincent, mơ thành phi hành gia chẳng khác nào tự nhận mình là trò hề.  
 
-Nhưng thử ngẫm lại, đời thực của chúng ta khác gì mấy? Không cần công nghệ gen, xã hội vẫn biết cách dựng lên những bức tường vô hình để phân loại và đóng khung mỗi người. Ở Việt Nam, định kiến tuổi tác (**ageism**) hiện hữu rất rõ: không ít ứng viên bị loại khỏi vòng tuyển dụng chỉ vì “ngoài 35 tuổi” – bất chấp kinh nghiệm hay năng lực họ sở hữu ([Báo Thanh Niên](https://thanhnien.vn/lao-dong-tren-35-tuoi-tim-viec-khi-bi-xem-la-gia-va-dinh-kien-vo-hinh-18525071720465034.htm)). Một con số khô khan đã đủ để xã hội mặc định bạn “hết giá trị.”  
+Nhưng thử ngẫm lại, đời thực của chúng ta khác gì mấy? Không cần công nghệ gen, xã hội vẫn biết cách dựng lên những bức tường vô hình để phân loại và đóng khung mỗi người. Ở Việt Nam, định kiến tuổi tác (**ageism**) hiện hữu rất rõ: không ít ứng viên bị loại khỏi vòng tuyển dụng chỉ vì “ngoài 35 tuổi” - bất chấp kinh nghiệm hay năng lực họ sở hữu ([Báo Thanh Niên](https://thanhnien.vn/lao-dong-tren-35-tuoi-tim-viec-khi-bi-xem-la-gia-va-dinh-kien-vo-hinh-18525071720465034.htm)). Một con số khô khan đã đủ để xã hội mặc định bạn “hết giá trị.”  
 
 Trong giáo dục cũng vậy: điều kiện gia đình nhiều khi chính là tờ “xét nghiệm gen” vô hình. Ở nhiều xã hội châu Á, bao gồm cả Việt Nam, việc học thêm tiếng Anh, luyện thi hay đi du học phần lớn phụ thuộc vào khả năng đầu tư của cha mẹ. Đứa trẻ lớn lên trong gia đình đủ đầy được học trung tâm ngoại ngữ, đi trại hè quốc tế; còn đứa phải lo cơm áo thì dù nỗ lực đến mấy cũng khó mà bắt kịp khoảng cách đã bị kéo dãn từ đầu. Và khi bước ra đời làm việc, ta lại gặp thêm một rào cản khác: **nepotism** - những vị trí vốn đã “có chủ” trước cả khi công bố tuyển dụng, nơi họ của bạn nhiều khi quan trọng hơn năng lực thực sự. Đây chẳng phải cũng là một dạng “xét nghiệm gen” khác, nơi cái tên thay thế cho DNA sao?  
 
