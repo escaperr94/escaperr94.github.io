@@ -100,7 +100,7 @@ Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nh
 
 > *"I was never more certain of how far away I was from my goal than when I was standing right beside it."*
 
-Và đó cũng là lý do khiến ước mơ trở nên mạnh mẽ đến vậy: nó không chỉ là khát vọng cá nhân, mà còn là sự phản kháng duy nhất trước những “bản thiết kế vô hình” mà xã hội áp đặt. Vincent mơ bay lên vũ trụ không chỉ để thoát khỏi số phận của riêng mình, mà còn để chứng minh rằng con người không thể bị giản lược thành gen, hoàn cảnh hay những thống kê lạnh lùng.
+Và đó cũng là lý do khiến ước mơ trở nên mạnh mẽ đến vậy: nó không chỉ là khát vọng cá nhân, mà còn là sự phản kháng duy nhất trước những “bản thiết kế vô hình” mà xã hội áp đặt. Vincent mơ bay lên vũ trụ không chỉ để thoát khỏi số phận của riêng mình, mà còn để chứng minh rằng con người không thể bị giản lược thành gen, hoàn cảnh xuất thân hay những thống kê lạnh lùng.
 
 ## Jerome  
 Nếu Vincent là kẻ bị đóng khung bởi một bản thiết kế đầy khiếm khuyết, thì Jerome  trong phim lại là phản đề hoàn hảo: sinh ra từ công nghệ chọn lọc gen, được ban tặng sức vóc, trí tuệ và cả tương lai sáng lạn ngay từ trong nôi. Anh là mẫu hình “valid” xuất chúng, vẹn toàn trong mọi xét nghiệm.  
