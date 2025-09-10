@@ -124,7 +124,7 @@ Jerome là thân xác lý tưởng nhưng rỗng niềm tin; Vincent là ý chí
 > 
 >Chi tiết, nội dung và nhiều tầng ý nghĩa của bộ phim bạn nên thực sự xem phim để hiểu rõ hơn
 
-## Lệch bước khỏi bản nhạc tiền định 
+## Sai phách tiền định 
 Và rồi, Vincent đã làm được điều mà không ai tin anh có thể: đặt chân lên con tàu vũ trụ, vượt khỏi bản án di truyền, vượt khỏi những dự đoán lạnh lùng của bảng thống kê. Anh thành công không phải nhờ gen, mà nhờ ý chí và giấc mơ - những thứ tưởng mong manh nhưng lại bền bỉ hơn bất kỳ cấu trúc DNA nào.  
 
 Trong căn hộ chật hẹp nơi Vincent từng sống cùng Jerome, nấc thang xoắn ốc dẫn lên tầng hai được thiết kế như hình ảnh một chuỗi xoắn DNA. Mỗi ngày Vincent bước qua nó, chẳng khác nào anh đang bước trên chính “định mệnh” đã giam cầm mình. DNA, vốn là xiềng xích, nay biến thành bậc thang - một ẩn dụ hoàn hảo rằng con người có thể dùng chính thứ từng trói buộc mình để làm bàn đạp đi xa hơn.  
