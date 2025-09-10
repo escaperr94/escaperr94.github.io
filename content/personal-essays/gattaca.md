@@ -31,8 +31,8 @@ Gattaca là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một t
 <p style="text-align: center; margin-top:-20px"><em> Thoại của một bác sỹ trong phim</em></p>
 
 
-> Simply the best of you 
-> You could conceive naturally 1,000 times and never get such a result 
+> *"Simply the best of you.* 
+> *You could conceive naturally 1,000 times and never get such a result"* 
 > 
 > Tạm dịch: Đứa trẻ được sinh ra chắc chắn là tập hợp những gì tốt nhất từ gen của 2 người. Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy
 > 
