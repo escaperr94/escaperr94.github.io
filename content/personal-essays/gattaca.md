@@ -162,7 +162,7 @@ Nhưng rồi, một câu hỏi khác hiện ra: nếu thiếu vắng một bản
 
 Từ thời Khai sáng, con người tin rằng lý trí và khoa học sẽ giải phóng ta khỏi bóng tối. Điều đó quả thật đã đúng: ta không còn run rẩy trước lời tiên tri, không còn cúi đầu trước định mệnh siêu hình. Nhưng khi ánh sáng ấy lan tỏa, một bóng tối khác lại hiện ra: cái khoảng trống khi ý nghĩa không còn được trao sẵn.  
 
-Như Dreyfus & Kelly viết trong *All Things Shining*: kể từ Descartes, ta đã đánh đổi những giá trị siêu hình chung để lấy tự do cá nhân. Đổi chác ấy mở ra một thế giới công bằng hơn, nhưng đồng thời cũng để lại một gánh nặng: khi ý nghĩa không còn được ban phát, ta phải tự kiến tạo nó. Và trong một thế giới quá nhiều khả thể, không ít người rơi vào hố thẳm hư vô: chẳng biết chọn gì, cũng chẳng biết sống vì điều gì. Để rồi, thay vì đối diện với khoảng không ấy, họ chọn những lối mòn mới - những con đường được xã hội bày sẵn: chạy theo công việc ổn định, tiêu dùng vô tận, hay những hình thức giải trí tức thì. Những lối mòn ấy dễ chịu, bởi chúng giúp ta tạm quên đi sự lạc lối. Nhưng càng bước sâu, ta càng dễ đánh mất cái khả thể rộng lớn mà tự do từng hứa hẹn.  
+Như Dreyfus & Kelly viết trong [All Things Shining](https://books.google.com.vn/books/about/All_Things_Shining.html?id=d1ZxucNZ8j4C&redir_esc=y): kể từ Descartes, ta đã đánh đổi những giá trị siêu hình chung để lấy tự do cá nhân. Đổi chác ấy mở ra một thế giới công bằng hơn, nhưng đồng thời cũng để lại một gánh nặng: khi ý nghĩa không còn được ban phát, ta phải tự kiến tạo nó. Và trong một thế giới quá nhiều khả thể, không ít người rơi vào hố thẳm hư vô: chẳng biết chọn gì, cũng chẳng biết sống vì điều gì. Để rồi, thay vì đối diện với khoảng không ấy, họ chọn những lối mòn mới - những con đường được xã hội bày sẵn: chạy theo công việc ổn định, tiêu dùng vô tận, hay những hình thức giải trí tức thì. Những lối mòn ấy dễ chịu, bởi chúng giúp ta tạm quên đi sự lạc lối. Nhưng càng bước sâu, ta càng dễ đánh mất cái khả thể rộng lớn mà tự do từng hứa hẹn.  
 
 Đó chính là chỗ *Gattaca* chạm vào thực tại. Vincent không được gán cho bất kỳ “ý nghĩa” nào ngoài cái mác *in-valid*. Nhưng thay vì buông xuôi vào những lối mòn, anh chọn dựng nên ý nghĩa cho riêng mình: ước mơ bay lên những vì sao.  
 
@@ -192,3 +192,5 @@ https://thanhnien.vn/lao-dong-tren-35-tuoi-tim-viec-khi-bi-xem-la-gia-va-dinh-ki
 https://www.economist.com/1843/2019/04/29/the-curse-of-genius
 
 https://www.wikiwand.com/vi/articles/Fukuzawa_Yukichi
+
+https://books.google.com.vn/books/about/All_Things_Shining.html?id=d1ZxucNZ8j4C&redir_esc=y
