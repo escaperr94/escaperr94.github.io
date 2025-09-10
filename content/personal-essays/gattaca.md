@@ -97,7 +97,7 @@ Trong giáo dục cũng vậy: điều kiện gia đình nhiều khi chính là 
 
 Chính trong bối cảnh ấy, ước mơ và ý chí mới trở thành một thứ vừa phi lý vừa không thể thiếu. Phi lý, vì mọi dữ kiện đều chống lại nó: gen của Vincent báo trước tuổi thọ ngắn ngủi, xã hội đóng chặt mọi cánh cửa, ngay cả gia đình cũng không đặt kỳ vọng nơi anh. Nhưng cũng không thể thiếu, bởi nếu từ bỏ ước mơ, anh chẳng còn lý do nào để tồn tại ngoài việc chấp nhận một cuộc đời nhỏ bé đã được định sẵn. Ước mơ trở thành thứ duy nhất níu giữ anh lại với chính mình, là ngọn lửa để anh không bị nuốt chửng bởi bản án di truyền.  
 
-Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nhân dọn vệ sinh trong trung tâm vũ trụ Gattaca - công việc thấp kém nhất - chỉ để mỗi ngày được nhìn thấy con tàu mà anh khao khát một lần đặt chân lên. Người khác nhìn anh như kẻ đáng thương, nhưng với Vincent, đó chính là cách để giữ giấc mơ luôn trong tầm mắt dẫu cho với anh nó thật sự quá xa vời.
+Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nhân dọn vệ sinh trong trung tâm vũ trụ Gattaca - công việc thấp kém nhất - chỉ để mỗi ngày được nhìn thấy con tàu mà anh khao khát một lần đặt chân lên. Người khác nhìn anh như kẻ đáng thương, nhưng với Vincent, đó chính là cách để giữ giấc mơ luôn trong tầm mắt dẫu cho với anh nó thật sự quá xa vời đến mức anh phải thốt lên rằng:
 
 ![[Pasted image 20250909204406.png | 900]]
 <p style="text-align: center; margin-top:-30px"><em>Vincent đi dọn vệ sinh bên cạnh trung tâm vũ trụ Gattaca</em></p>
