@@ -115,7 +115,7 @@ Nếu Vincent là kẻ bị đóng khung bởi một bản thiết kế đầy k
 Nhưng ở rìa mọi đỉnh cao thường là một vực sâu: lời nguyền của sự hoàn hảo. Jerome từng là vận động viên Olympic cự ly 100m - không một ai ngờ rằng huy chương bạc mà anh giành được lại trở thành gót chân Achilles. Trong thế giới _Gattaca_, chỉ một thoáng kém toàn hảo cũng đủ để đánh rơi danh dự. Khi ta được trao tất cả mà vẫn không chạm được “tất cả”, điều gì còn lại? _The Economist_ gọi đó là [“The Curse of Genius”](https://www.economist.com/1843/2019/04/29/the-curse-of-genius): những tài năng thiên bẩm dần hóa “kẻ lạc lõng, dễ tổn thương” dưới sức nặng của toàn mỹ mà xã hội và chính họ đặt lên vai.
 
 ![[Pasted image 20250910125631.png | 900]]
-<p style="text-align: center; margin-top:-30px"><em>Cuộc đời Jerome kết thúc trên chiếc xe lăn</em></p>
+<p style="text-align: center; margin-top:-30px"><em>Cuộc đời Jerome bỗng được ấn định trên chiếc xe lăn</em></p>
 
 Tai nạn ô tô ập đến, cắt phăng đôi chân. Với người bình thường, đó là biến cố; với một “valid” sinh ra để chiến thắng, đó là bản án hủy danh. Từ ngày ấy, Jerome không chỉ đánh mất cơ bắp, anh đánh mất cả thước đo giá trị bản thân. Căn hộ thênh thang biến thành nhà tù dát vàng; ánh đèn lạnh lẽo thành chiếc gông anh tự đeo.
 
