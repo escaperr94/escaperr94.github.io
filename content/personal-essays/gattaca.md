@@ -11,7 +11,7 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 
 Đây không phải lần đầu tôi rơi vào trạng thái mất phương hướng, trước đó tôi từng có hai lần rơi vào trạng thái tương tự vào năm 14 tuổi và 17 tuổi. Nhưng khác với những lần ấy, lần này tôi chịu ngồi xuống, suy ngẫm một cách nghiêm túc hơn. Đến thời điểm hiện tại, có lẽ tôi đã gần chạm được vào một câu trả lời tạm gọi là “thỏa đáng”. Bài viết này sẽ chia sẻ một phần những suy ngẫm ấy, xoay quanh hai câu hỏi: **“Ta là ai?”** và **“Ta muốn gì?”**
 >[!info]
->Bài viết sẽ gồm 2 phần: *Gattaca* và *Ta, định mệnh*. Phần hai có nhiều yếu tố cá nhân và có thể không phù hợp với tất cả độc giả. Một vài đoạn có thể khiến bạn cảm thấy tiêu cực, nhưng xin nhớ: đây vẫn là một blog muốn truyền đạt về niềm tin và hy vọng
+>Một vài đoạn có thể khiến bạn cảm thấy tiêu cực, nhưng xin nhớ: đây vẫn là một blog muốn truyền đạt về niềm tin và hy vọng.
 # Gattaca 
 <iframe
   src="https://www.youtube.com/embed/RMaWvielZho"
