@@ -6,6 +6,7 @@ tags:
   - human
   - random_thought
   - life
+  - vietnamese
 ---
 Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa viết thêm được bài nào. Một phần vì lười, phần khác vì chưa tìm được điều gì thật sự thôi thúc mình đặt bút. Sáu tháng vừa qua tôi dành nhiều thời gian để chiêm nghiệm, đọc thêm vài đầu sách, thử tiếp cận một số hệ tư tưởng khác nhau, đồng thời nhìn lại toàn bộ hành trình 21 năm trên cõi đời này để tự hỏi: **“Ta là ai?”** và **“Ta muốn gì?”**. 
 
