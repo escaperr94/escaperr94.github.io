@@ -33,6 +33,7 @@ Gattaca là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một t
 
 > Simply the best of you 
 > You could conceive naturally 1,000 times and never get such a result 
+> 
 > Tạm dịch: Đứa trẻ được sinh ra chắc chắn là tập hợp những gì tốt nhất từ gen của 2 người. Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy
 > 
 > *Trích lời một bác sỹ trong phim*
@@ -55,7 +56,7 @@ Tuổi thọ dự tính: 30.2 năm
 
 
 ![[Pasted image 20250909184204.png|900]]
-<p style="text-align: center;"><em> Cảnh chào đời của Vincent</em></p>
+<p style="text-align: center; margin-top:-20px"><em> Cảnh chào đời của Vincent</em></p>
 
 ### Ta và Vincent
 Hãy ngừng lại một nhịp. Vincent không xa lạ; anh chính là bóng dáng của chúng ta hôm nay. Công nghệ gen đã đủ sức lựa chọn giới tính, điều chỉnh vài tính trạng cơ bản (xem [CRISPR](https://www.wikiwand.com/vi/articles/CRISPR)). Đời người có khác gì một bản vẽ dựng sẵn? Sinh ra từ cát bụi, đi học, đi làm, lập gia đình, già nua, rồi trở về với cát bụi. Ngôi trường bạn đến, bữa ăn bạn có, sức khỏe bạn giữ, thậm chí cả sự kỷ luật mà bạn nghĩ là của riêng mình - rốt cuộc vẫn phần lớn bị chi phối bởi hoàn cảnh, bởi xuất phát điểm, bởi cả yếu tố di truyền. Bởi lẽ, không phải ai cũng có cùng điều kiện để duy trì kỷ luật: một đứa trẻ lớn lên trong môi trường đủ đầy, cha mẹ định hướng, sẽ dễ dàng rèn thói quen học tập và tập luyện hơn một đứa trẻ sinh ra trong một hộ gia đình lao động nghèo phải đi làm thêm từ bé để phụ giúp gia đình. Ý chí, kỷ luật vốn được ca ngợi như tài sản cá nhân, nhưng thực chất cũng được “ươm mầm” bởi môi trường.
@@ -66,7 +67,7 @@ Người ta thường nói: “Chỉ cần cố gắng, bạn sẽ thành công�
 ### Anton 
 “Anton” là cái tên mà cha Vincent muốn dành cho đứa con trai mà ông có thể tự hào. Nhưng đáng tiếc, ngay từ khi chào đời, Vincent đã khiến ông thất vọng đến mức cái tên ấy bị tước khỏi anh ngay tức khắc.  Rút kinh nghiệm từ Vincent, cha mẹ anh quyết định sử dụng kỹ thuật gen để sinh thêm một đứa trẻ với bộ gen hoàn hảo - và nó được đặt tên là Anton. Từ thuở bé, Anton luôn nhận nhiều sự chú ý hơn hẳn Vincent; và hiển nhiên trong bất cứ trò chơi hay cuộc thi nào, Vincent đều là kẻ thua cuộc khi đặt lên bàn cân với Anton. 
 ![[Pasted image 20250909200548.png|900]]
-<p style="text-align: center;"><em>Vincent hoàn toàn thua thiệt Anton về mọi mặt dù sinh trước</em></p>
+<p style="text-align: center; margin-top:-20px"><em>Vincent hoàn toàn thua thiệt Anton về mọi mặt dù sinh trước</em></p>
 
 Và đó mới là cái cay đắng nhất: bất kể Vincent cố gắng đến đâu, cái kết dường như đã được định sẵn. Anh không thể cao thêm chỉ bằng ý chí, không thể làm trái tim mình đập khỏe hơn, cũng không thể giành lại ánh nhìn vốn mặc định thuộc về Anton. Giống như bị giam trong một chiếc lồng vô hình - càng giãy giụa lại càng thấy rõ song sắt. Ngoài đời thực, chúng ta cũng thường rơi vào tình thế ấy. Có những giới hạn tưởng như đã được đóng khung: chiều cao, trí tuệ, xuất thân, sức khỏe, hay cả những ràng buộc vô hình từ xã hội. Ta vùng vẫy, nhưng càng cố lại càng thấy rõ bức tường. Đôi khi, sự bất lực ấy làm ta tự hỏi rằng có những cuộc chơi mà bản thân mình sinh ra liệu mình sinh ra vốn dĩ chỉ để sắm vai kẻ thất bại? Einstein từng nói
 > *Everything is determined, the beginning as well as the end, by forces over which we have no control. It is determined for the insect, as well as for the star. Human beings, vegetables, or cosmic dust, we all dance to a mysterious tune, intoned in the distance by an invisible piper*
@@ -80,7 +81,7 @@ Và biết đâu, chính từ những khe hở vi tế ấy mà ý chí nảy si
 >*It was the one moment in our lives that my brother was not as strong as he believed and I was not as weak. It was the moment that made everything else possible.*
 
 ![[Pasted image 20250909200402.png | 900]]
-<p style="text-align: center;"><em> Cảnh Vincent bơi cạnh Anton</em></p>
+<p style="text-align: center; margin-top:-20px"><em> Cảnh Vincent bơi cạnh Anton</em></p>
 
 ### Ước mơ?  
 
@@ -95,7 +96,7 @@ Chính trong bối cảnh ấy, ước mơ và ý chí mới trở thành một 
 Và vì thế, Vincent chấp nhận trả giá: anh chấp nhận làm công nhân dọn vệ sinh trong trung tâm vũ trụ Gattaca - công việc thấp kém nhất - chỉ để mỗi ngày được nhìn thấy con tàu mà anh khao khát một lần đặt chân lên. Người khác nhìn anh như kẻ đáng thương, nhưng với Vincent, đó chính là cách để giữ giấc mơ luôn trong tầm mắt dẫu cho với anh nó thật sự quá xa vời.
 
 ![[Pasted image 20250909204406.png | 900]]
-<p style="text-align: center;"><em></em>Vincent đi dọn vệ sinh bên cạnh trung tâm vũ trụ Gattaca</p>
+<p style="text-align: center; margin-top:-20px"><em></em>Vincent đi dọn vệ sinh bên cạnh trung tâm vũ trụ Gattaca</p>
 
 > *"I was never more certain of how far away I was from my goal than when I was standing right beside it."*
 
@@ -123,7 +124,7 @@ Và rồi, Vincent đã làm được điều mà không ai tin anh có thể: �
 Trong căn hộ chật hẹp nơi Vincent từng sống cùng Jerome, nấc thang xoắn ốc dẫn lên tầng hai được thiết kế như hình ảnh một chuỗi xoắn DNA. Mỗi ngày Vincent bước qua nó, chẳng khác nào anh đang bước trên chính “định mệnh” đã giam cầm mình. DNA, vốn là xiềng xích, nay biến thành bậc thang - một ẩn dụ hoàn hảo rằng con người có thể dùng chính thứ từng trói buộc mình để làm bàn đạp đi xa hơn.  
 
 ![[Pasted image 20250909211237.png | 900]]
-<p style="text-align: center;"><em>Hình ảnh cầu thang trong phim </em></p>
+<p style="text-align: center; margin-top:-20px"><em>Hình ảnh cầu thang trong phim </em></p>
 
 Khoảnh khắc cuối, khi con tàu rời bệ phóng, lời tự sự của Vincent vang lên, giản dị mà lay động:  
 
