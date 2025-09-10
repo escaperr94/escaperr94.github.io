@@ -34,7 +34,7 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 > *"Simply the best of you.* 
 > *You could conceive naturally 1,000 times and never get such a result"* 
 > 
-> Tạm dịch: Đứa trẻ được sinh ra chắc chắn là tập hợp những gì tốt nhất từ gen của 2 người. Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy
+> Tạm dịch: *"Đứa trẻ được sinh ra chắc chắn là tập hợp những gì tốt nhất từ gen của 2 người. Các bạn có thể thử giao phối tự nhiên 1000 lần cũng không thể có được kết quả tốt đến vậy"*
 > 
 > *Trích lời một bác sỹ trong phim*
 
@@ -135,6 +135,8 @@ Trong căn hộ chật hẹp nơi Vincent từng sống cùng Jerome, nấc than
 Khoảnh khắc cuối, khi con tàu rời bệ phóng, lời tự sự của Vincent vang lên, giản dị mà lay động:  
 
 > *“For someone who was never meant for this world, I must confess I'm suddenly having a hard time leaving it. Of course, they say every atom in our bodies was once part of a star. Maybe I'm not leaving... maybe I'm going home.”*  
+> 
+> Tạm dịch: *“Với một kẻ vốn chưa bao giờ thuộc về thế giới này, tôi phải thú nhận rằng bỗng nhiên việc rời bỏ nó lại trở nên thật khó khăn. Dĩ nhiên, người ta nói rằng từng nguyên tử trong thân thể chúng ta đã từng là một phần của những vì sao. Vậy thì có lẽ… tôi đâu phải đang rời đi, mà là đang trở về nhà.”*
 
 Một kẻ vốn “không được sinh ra cho thế giới này” cuối cùng lại tìm thấy nơi thuộc về mình giữa những vì sao. Ẩn dụ “trở về nhà” không chỉ là lời chào vĩnh biệt, mà còn là sự hòa giải: từ cát bụi đến tinh tú, từ gen đến ý chí, từ giới hạn đến tự do.  
 
