@@ -169,9 +169,9 @@ Từ nhỏ, tôi đã mang trong lòng một niềm tin giản dị: không ai s
 
 > *“Trời không sinh ra người đứng trên người, cũng không sinh ra người đứng dưới người.”*  
 
-Chỉ bấy nhiêu thôi đã đủ để tôi tin rằng cái gọi là “bản thiết kế số phận” không phải xiềng xích bất biến. Nếu có thứ gì đủ sức bào mòn nó, thì đó chính là tri thức - hạt giống ta gieo vào mình, lớn dần theo năm tháng, cùng với ý chí không chịu khuất phục. Từ *Gattaca* đến đời thực, mọi ranh giới tưởng như tuyệt đối - gen, xuất thân, tuổi tác, hay họ hàng - đều có thể mòn dần đi, từng chút một, bởi khát vọng học hỏi và sự kiên trì của con người.  
+Chỉ bấy nhiêu thôi đã đủ để tôi tin rằng cái gọi là “bản thiết kế số phận” không phải xiềng xích bất biến. Nếu có thứ gì đủ sức bào mòn nó, thì đó chính là ước mơ mạnh liệt của con người - hạt giống ta gieo vào mình, lớn dần theo năm tháng, cùng với ý chí không chịu khuất phục. Từ *Gattaca* đến đời thực, mọi ranh giới tưởng như tuyệt đối - gen, xuất thân, tuổi tác, hay họ hàng - đều có thể mòn dần đi, từng chút một, bởi khát vọng và sự kiên trì của con người.  
 
-Và đến cuối cùng, tôi nhận ra mình chẳng cần một lời giải thích trọn vẹn nào nữa. Tôi chỉ muốn biết: rốt cuộc mình có thể đi xa đến đâu. Một khi đã bước đi, tôi cũng chẳng thể quay lại. Thật kỳ lạ nhưng cũng thật hạnh phúc khi được làm người, được sống trong câu chuyện này, trong trải nghiệm này. Có lẽ chẳng cần gì hơn ngoài điều đó. Chỉ cần còn mơ, còn học, còn dám sống trọn với niềm tin nhỏ bé ấy, thì ngay cả giữa hố thẳm hư vô, ta vẫn có thể viết tiếp câu chuyện của riêng mình.  
+Và đến cuối cùng, tôi nhận ra mình chẳng cần một lời giải thích trọn vẹn nào nữa. Tôi chỉ muốn biết: rốt cuộc mình có thể đi xa đến đâu. Một khi đã bước đi, tôi cũng chẳng thể quay lại. Thật kỳ lạ nhưng cũng thật hạnh phúc khi được làm người, được sống trong câu chuyện này, trong trải nghiệm này. Có lẽ chẳng cần gì hơn ngoài điều đó. Chỉ cần còn mơ, còn khát vọng, còn dám sống trọn với niềm tin nhỏ bé ấy, thì ngay cả giữa hố thẳm hư vô, ta vẫn có thể viết tiếp câu chuyện của riêng mình.  
 
 
 # References
