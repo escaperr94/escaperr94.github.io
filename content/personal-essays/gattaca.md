@@ -23,7 +23,7 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 <div style="text-align: center;"><em> “Để bài viết thêm phần trọn vẹn, tôi mời bạn mở bản nhạc sau đây và cùng lắng nghe khi đọc.”</em></div>
 
 
-Gattaca là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một tương lai không xa, khi công nghệ gen đã phát triển vượt bậc. Cha mẹ lúc này có thể dễ dàng "đặt hàng" cho con cái - từ màu mắt, màu tóc, giới tính cho đến sức khỏe hay trí thông minh - chẳng khác nào việc đặt một bộ quần áo.
+[Gattaca](https://www.wikiwand.com/en/articles/Gattaca) là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một tương lai không xa, khi công nghệ gen đã phát triển vượt bậc. Cha mẹ lúc này có thể dễ dàng "đặt hàng" cho con cái - từ màu mắt, màu tóc, giới tính cho đến sức khỏe hay trí thông minh - chẳng khác nào việc đặt một bộ quần áo.
 
 
 
