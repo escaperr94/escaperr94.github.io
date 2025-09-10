@@ -15,13 +15,13 @@ Kể từ sau blog đầu tiên đến nay đã gần một năm tôi chưa vi�
 >Một vài đoạn có thể khiến bạn cảm thấy tiêu cực, nhưng xin nhớ: đây vẫn là một blog muốn truyền đạt về niềm tin và hy vọng.
 # Gattaca 
 <iframe
-  src="https://www.youtube.com/embed/RMaWvielZho&loop=1"
+  src="https://www.youtube.com/embed/RMaWvielZho"
   width="900"
   height="350"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   >
 </iframe>
-<div style="text-align: center;"><em> “Để bài viết thêm phần trọn vẹn, tôi mời bạn mở bản nhạc sau đây và cùng lắng nghe khi đọc.”</em></div>
+<div style="text-align: center;"><em> “Để bài viết thêm phần trọn vẹn, tôi mời bạn mở bản nhạc sau đây trong chế độ loop và cùng lắng nghe khi đọc.”</em></div>
 
 
 [Gattaca](https://www.wikiwand.com/en/articles/Gattaca) là một bộ phim ra mắt năm 1997, lấy bối cảnh trong một tương lai không xa, khi công nghệ gen đã phát triển vượt bậc. Cha mẹ lúc này có thể dễ dàng "đặt hàng" cho con cái - từ màu mắt, màu tóc, giới tính cho đến sức khỏe hay trí thông minh - chẳng khác nào việc đặt một bộ quần áo.
