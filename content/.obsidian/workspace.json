@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-essays/gattaca.md",
+                "file": "personal-essays/writing.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "gattaca"
+              "title": "writing"
             }
           }
         ]
@@ -162,17 +162,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "e0d2a2544b3eef7d",
   "lastOpenFiles": [
+    "personal-essays/gattaca.md",
+    "personal-essays/writing.md",
+    "personal-essays/index.md",
     "Pasted image 20250910125631.png",
     "ai-robotics/index.md",
     "ai-robotics/ml-basics.md",
-    "personal-essays/gattaca.md",
-    "personal-essays/index.md",
     "ai-robotics/introduction-softmax.md",
     "personal-essays/gattaca2.md",
     "Pasted image 20250909211237.png",
