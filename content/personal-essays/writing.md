@@ -10,4 +10,4 @@ For a very long time, I've wished to write like a native - to produce amazing bl
 
 But now, everything has to change, I don't want it to stay like this anymore. I really want to upskill myself, especially writing, because it will help me so much with networking and allow people around the world to know me.
 
-So from today, I will start writing. I hope this goes well. 
+So from today, I will start writing. I hope this journey goes well. 
