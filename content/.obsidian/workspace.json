@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-essays/writing.md",
+                "file": "side-quests/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "writing"
+              "title": "index"
             }
           }
         ]
@@ -167,8 +167,11 @@
   },
   "active": "e0d2a2544b3eef7d",
   "lastOpenFiles": [
-    "personal-essays/gattaca.md",
+    "side-quests/arete.md",
+    "side-quests/arete-design.md",
+    "side-quests/index.md",
     "personal-essays/writing.md",
+    "personal-essays/gattaca.md",
     "personal-essays/index.md",
     "Pasted image 20250910125631.png",
     "ai-robotics/index.md",
