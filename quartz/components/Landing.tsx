@@ -123,7 +123,7 @@ export default (() => {
             <span class="nav-separator">•</span>
             <a href="/publications" class="nav-link nav-highlight">PUBLICATIONS</a>
             <span class="nav-separator">•</span>
-            <a href="/misc" class="nav-link nav-highlight">MISCELLANEOUS</a>
+            <a href="/arts" class="nav-link nav-highlight">ARTS</a>
           </nav>
 
           {/* Wrap character and cards together for proper layout */}
