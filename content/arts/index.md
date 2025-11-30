@@ -147,15 +147,24 @@ Over the years, I've dabbled in different crafts. Not to become great at any of 
 </div>
 
 <script>
-// Self-executing function that works with SPA navigation
-(function initBentoGallery() {
+// Wait for DOM to be ready and retry until elements exist
+function initBentoGallery() {
+  const cards = document.querySelectorAll('.bento-card');
+  const lightbox = document.getElementById('artLightbox');
+  
+  // If elements don't exist yet, retry after a short delay
+  if (cards.length === 0 || !lightbox) {
+    setTimeout(initBentoGallery, 100);
+    return;
+  }
+  
   // Remove old listeners by cloning elements
-  document.querySelectorAll('.bento-card').forEach(card => {
+  cards.forEach(card => {
     const newCard = card.cloneNode(true);
     card.parentNode.replaceChild(newCard, card);
   });
   
-  // Add click handlers
+  // Add click handlers to fresh elements
   document.querySelectorAll('.bento-card').forEach(card => {
     card.addEventListener('click', (e) => {
       if (e.target.tagName === 'IFRAME') return;
@@ -191,15 +200,13 @@ Over the years, I've dabbled in different crafts. Not to become great at any of 
     });
   });
 
-  const lightbox = document.getElementById('artLightbox');
-  if (lightbox) {
-    lightbox.onclick = (e) => {
-      if (e.target.id === 'artLightbox' || e.target.classList.contains('lightbox-close')) {
-        closeLightbox();
-      }
-    };
-  }
-})();
+  // Setup lightbox close
+  lightbox.onclick = (e) => {
+    if (e.target.id === 'artLightbox' || e.target.classList.contains('lightbox-close')) {
+      closeLightbox();
+    }
+  };
+}
 
 function closeLightbox() {
   const lightbox = document.getElementById('artLightbox');
@@ -210,6 +217,14 @@ function closeLightbox() {
     document.body.style.overflow = '';
   }
 }
+
+// Initialize immediately
+initBentoGallery();
+
+// Also listen for SPA navigation events
+document.addEventListener('nav', () => {
+  setTimeout(initBentoGallery, 50);
+});
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
