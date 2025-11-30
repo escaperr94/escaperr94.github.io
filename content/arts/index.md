@@ -10,74 +10,197 @@ tags:
 
 > *"The pursuit of beauty is merely a way of keeping alive a part of ourselves that would otherwise die of neglect."*
 
-I've always been drawn to the beauty of things - not just what they are, but how they're made. The way a line curves, the way paper folds, the way a melody resolves. There's something deeply satisfying about structure revealing itself through form.
+I've always been drawn to the beauty of things, not just what they are, but how they're made. The way a line curves, the way paper folds, the way a melody resolves. There's something deeply satisfying about structure revealing itself through form.
 
 Over the years, I've dabbled in different crafts. Not to become great at any of them, but simply because I couldn't resist trying.
 
----
+<div class="bento-gallery-full">
+  
+  <div class="bento-card featured" data-category="origami" data-src="origami.jpg" data-title="Wizard" data-meta="folded 30/11/2025" data-desc="Most art forms are either additive, like painting or music, where you build up layers, or subtractive, like sculpture, where you carve away. But origami is different. It's transformative. You start with a single sheet, and through folding alone, it becomes something entirely new. Nothing added, nothing removed, just transformed.">
+    <img src="origami.jpg" alt="Origami Wizard" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Origami</span>
+      <h3>Wizard</h3>
+      <p>Satoshi Kamiya, folded 30/11/2025</p>
+    </div>
+  </div>
 
-## Music
+  <div class="bento-card music" data-category="music" data-video="https://www.youtube.com/embed/xgSTNfNG4bw" data-title="Jump Off" data-meta="Jiazhuo Liu" data-desc="I used to play fingerstyle guitar, mostly self-taught. Learned by ear, figured things out on my own. But after my first year of university, I stopped and haven't picked it up since. This cover was learned entirely by ear. No tabs, no tutorials, just slow, obsessive listening.">
+    <div class="music-embed">
+      <iframe src="https://www.youtube.com/embed/xgSTNfNG4bw" title="Jump Off" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="bento-overlay">
+      <span class="bento-tag">Music</span>
+      <h3>Jump Off</h3>
+      <p>Jiazhuo Liu</p>
+    </div>
+  </div>
 
-I used to play **fingerstyle guitar**, mostly self-taught. Learned by ear, figured things out on my own. But after my first year of university, I stopped and haven't picked it up since.
+  <div class="bento-card" data-category="drawing" data-src="bird.jpg" data-title="Just a bird" data-meta="just learn how to draw lol" data-desc="I got curious about drawing recently. Still a total beginner, but I love how lines and shapes can capture something real with so little.">
+    <img src="bird.jpg" alt="Bird drawing" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Drawing</span>
+      <h3>Just a bird</h3>
+      <p>just learn how to draw lol</p>
+    </div>
+  </div>
 
-Before I quit, I recorded a cover of **"Jump Off" by Jiazhuo Liu**, learned entirely by ear. No tabs, no tutorials, just slow, obsessive listening.
+  <div class="bento-card" data-category="design" data-src="design_1.png" data-title="GitHub Banner" data-desc="Personal GitHub profile banner design.">
+    <img src="design_1.png" alt="GitHub Banner Design" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>GitHub Banner</h3>
+    </div>
+  </div>
 
-<iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/xgSTNfNG4bw" 
-    title="Jump Off" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+  <div class="bento-card" data-category="design" data-src="design_2.png" data-title="Notion Design" data-desc="Notion workspace template design.">
+    <img src="design_2.png" alt="Notion Design" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Notion Design</h3>
+    </div>
+  </div>
 
-I'm still proud of it. Not because it's flawless, but because it represents effort, patience, and love for sound.
+  <div class="bento-card tall" data-category="drawing" data-src="landscape.jpg" data-title="Random scene" data-desc="Just a random landscape I tried to draw.">
+    <img src="landscape.jpg" alt="Landscape drawing" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Drawing</span>
+      <h3>Random scene</h3>
+    </div>
+  </div>
 
----
+  <div class="bento-card" data-category="design" data-src="design_3.png" data-title="Notion Design" data-desc="Another Notion template exploration.">
+    <img src="design_3.png" alt="Notion Design" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Notion Design</h3>
+    </div>
+  </div>
 
-## Origami
+  <div class="bento-card" data-category="design" data-src="design_4.png" data-title="Obsidian Design" data-meta="paper-inspired" data-desc="Obsidian theme with paper-inspired aesthetic.">
+    <img src="design_4.png" alt="Obsidian Design" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Obsidian Design</h3>
+      <p>paper-inspired</p>
+    </div>
+  </div>
 
-Most art forms are either *additive* - like painting or music, where you build up layers - or *subtractive*, like sculpture, where you carve away. But origami is different. It's *transformative*. You start with a single sheet, and through folding alone, it becomes something entirely new. Nothing added, nothing removed, just transformed.
+  <div class="bento-card wide" data-category="design" data-src="design_5.png" data-title="Obsidian Design" data-desc="Custom Obsidian theme design.">
+    <img src="design_5.png" alt="Obsidian Design" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Obsidian Design</h3>
+    </div>
+  </div>
 
-There's something meditative about it. No tools, no undo button, just patience and precision. A single sheet becomes something alive.
+  <div class="bento-card" data-category="design" data-src="design_6.png" data-title="Obsidian Theme" data-desc="Another Obsidian theme variant.">
+    <img src="design_6.png" alt="Obsidian Theme" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Obsidian Theme</h3>
+    </div>
+  </div>
 
-![Origami](origami.jpg)
-*Wizard (Satoshi Kamiya) folded 30/11/2025*
+  <div class="bento-card" data-category="design" data-src="design_7.png" data-title="GitHub Banner" data-desc="GitHub profile banner design.">
+    <img src="design_7.png" alt="GitHub Banner" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>GitHub Banner</h3>
+    </div>
+  </div>
 
----
+  <div class="bento-card" data-category="design" data-src="design_8.png" data-title="Ghost of Tsushima" data-meta="Notion page design" data-desc="Notion page design inspired by Ghost of Tsushima aesthetic.">
+    <img src="design_8.png" alt="Notion Ghost of Tsushima" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Ghost of Tsushima</h3>
+      <p>Notion page design</p>
+    </div>
+  </div>
 
-## Design
+  <div class="bento-card" data-category="design" data-src="design_1.png" data-title="Q-Learning Notes" data-desc="Machine learning notes visualization.">
+    <img src="design_1.png" alt="Q-Learning Notes" />
+    <div class="bento-overlay">
+      <span class="bento-tag">Design</span>
+      <h3>Q-Learning Notes</h3>
+    </div>
+  </div>
 
-I like designing things that feel balanced, visually clear, emotionally resonant. No formal training, just intuition and iteration.
+</div>
 
-This blog is considered the current state-of-the-art of my design skill.
+<!-- Lightbox Modal with Side Content -->
+<div class="art-lightbox" id="artLightbox">
+  <button class="lightbox-close" onclick="closeLightbox()"></button>
+  <div class="lightbox-content">
+    <div class="lightbox-media">
+      <img src="" alt="" id="lightboxImg" />
+      <iframe id="lightboxVideo" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:none;"></iframe>
+    </div>
+    <div class="lightbox-info">
+      <span class="lightbox-tag" id="lightboxTag"></span>
+      <h2 id="lightboxTitle"></h2>
+      <p class="lightbox-meta" id="lightboxMeta"></p>
+      <p class="lightbox-desc" id="lightboxDesc"></p>
+    </div>
+  </div>
+</div>
 
-![Design 1](design_1.png)
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.bento-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      // Don't trigger lightbox if clicking on iframe
+      if (e.target.tagName === 'IFRAME') return;
+      
+      const isVideo = card.dataset.video;
+      const imgEl = card.querySelector('img');
+      const src = imgEl ? imgEl.src : '';
+      const title = card.dataset.title || '';
+      const meta = card.dataset.meta || '';
+      const desc = card.dataset.desc || '';
+      const category = card.dataset.category || '';
+      
+      const lightboxImg = document.getElementById('lightboxImg');
+      const lightboxVideo = document.getElementById('lightboxVideo');
+      
+      if (isVideo) {
+        lightboxImg.style.display = 'none';
+        lightboxVideo.style.display = 'block';
+        lightboxVideo.src = card.dataset.video + '?autoplay=1';
+      } else {
+        lightboxImg.style.display = 'block';
+        lightboxVideo.style.display = 'none';
+        lightboxVideo.src = '';
+        lightboxImg.src = src;
+      }
+      
+      document.getElementById('lightboxTag').textContent = category.charAt(0).toUpperCase() + category.slice(1);
+      document.getElementById('lightboxTitle').textContent = title;
+      document.getElementById('lightboxMeta').textContent = meta;
+      document.getElementById('lightboxDesc').textContent = desc;
+      document.getElementById('artLightbox').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
 
-![Design 2](design_2.png)
+  document.getElementById('artLightbox').addEventListener('click', (e) => {
+    if (e.target.id === 'artLightbox' || e.target.classList.contains('lightbox-close')) {
+      closeLightbox();
+    }
+  });
 
-![Design 3](design_3.png)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+});
 
-![Design 4](design_4.png)
-
-![Design 5](design_5.png)
-
-![Design 6](design_6.png)
-
-![Design 7](design_7.png)
-
-![Design 8](design_8.png)
-
----
-
-## Drawing
-
-I got curious about drawing recently, spent around 14 hours on it (yes, I counted). Still a total beginner, but I love how lines and shapes can capture something real with so little.
-
-![Bird](bird.jpg)
-*Just a bird*
-
-![Landscape](landscape.jpg)
-*Random scene?*
+function closeLightbox() {
+  document.getElementById('artLightbox').classList.remove('active');
+  document.getElementById('lightboxVideo').src = '';
+  document.body.style.overflow = '';
+}
+</script>
 
 ---
 
@@ -85,11 +208,11 @@ I got curious about drawing recently, spent around 14 hours on it (yes, I counte
 
 Sadly, I don't have time for these things anymore. Life got busier, priorities shifted.
 
-These days, I'm more focused on **math** and **coding** which, honestly, I also consider art forms. There's beauty in a clean proof, elegance in well-structured code. It's a different kind of creativity, but it suits me better right now.
+These days, I'm more focused on **math** and **coding**, which, honestly, I also consider art forms. There's beauty in a clean proof, elegance in well-structured code. It's a different kind of creativity, but it suits me better right now.
 
 Maybe one day I'll return to paper and strings. But for now, my canvas is the terminal, and my brush is logic.
 
 ---
 
-*This page is a quiet archive of the things I once tried to create, not to show skill, but to remember what it felt like to explore.*
+<p class="art-caption">This page is a quiet archive of the things I once tried to create, not to show skill, but to remember what it felt like to explore.</p>
 

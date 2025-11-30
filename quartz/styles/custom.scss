@@ -890,3 +890,487 @@ article h6 { font-size: 14px !important; line-height: 1.5;  margin: 0.8rem 0 0.4
     img { margin: 0.75rem 0 !important; }
   }
 }
+
+/* BENTO GALLERY STYLES FOR ARTS PAGE */
+
+/* Art caption typography - handwritten feel */
+.art-caption {
+  font-family: "Caveat", cursive, var(--bodyFont);
+  font-size: 18px;
+  color: #5a5a5a;
+  text-align: center;
+  padding: 0.5rem 0;
+  letter-spacing: 0.5px;
+}
+
+/* ========================================
+   AESTHETIC BENTO GALLERY
+   ======================================== */
+.bento-gallery-full {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  gap: 14px;
+  margin: 2rem 0;
+  
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+    gap: 12px;
+  }
+  
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 160px;
+    gap: 10px;
+  }
+  
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+  }
+}
+
+.bento-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #f5f3f0;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+  grid-column: span 1;
+  grid-row: span 1;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.5) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+    
+    &::before {
+      opacity: 1;
+    }
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 !important;
+    transition: transform 0.5s ease;
+  }
+  
+  &:hover img {
+    transform: scale(1.05);
+  }
+}
+
+/* Featured card - 2x2 */
+.bento-card.featured {
+  grid-column: span 2;
+  grid-row: span 2;
+  
+  @media (max-width: 400px) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+}
+
+/* Tall card - 1x2 */
+.bento-card.tall {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+/* Wide card - 2x1 */
+.bento-card.wide {
+  grid-column: span 2;
+  grid-row: span 1;
+  
+  @media (max-width: 400px) {
+    grid-column: span 1;
+  }
+}
+
+/* Music card with embedded video */
+.bento-card.music {
+  grid-column: span 2;
+  grid-row: span 1;
+  background: #f5f3f0;
+  
+  @media (max-width: 400px) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .music-embed {
+    width: 100%;
+    height: 100%;
+    
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 16px;
+    }
+  }
+  
+  &::before {
+    display: none;
+  }
+}
+
+/* Overlay with info */
+.bento-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2.5rem 1rem 1rem;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all 0.35s ease;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 60%, transparent 100%);
+  
+  .bento-tag {
+    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #ffffff !important;
+    background: rgba(255,255,255,0.25);
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    backdrop-filter: blur(8px);
+  }
+  
+  h3 {
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff !important;
+    margin: 0 0 2px;
+    line-height: 1.3;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+  }
+  
+  p {
+    font-family: "Caveat", cursive, var(--bodyFont);
+    font-size: 14px;
+    font-style: normal !important;
+    color: #ffffff !important;
+    margin: 0;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+  }
+}
+
+/* Force white text on bento overlay - high specificity */
+body .bento-gallery-full .bento-card .bento-overlay h3,
+body .bento-gallery-full .bento-card .bento-overlay p,
+body .bento-gallery-full .bento-card .bento-overlay .bento-tag,
+body[data-slug^="arts"] .bento-gallery-full .bento-overlay h3,
+body[data-slug^="arts"] .bento-gallery-full .bento-overlay p,
+body[data-slug^="arts"] .bento-gallery-full .bento-overlay .bento-tag {
+  color: #ffffff !important;
+  font-style: normal !important;
+}
+
+.bento-card:hover .bento-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Category color accents */
+.bento-card[data-category="origami"] .bento-tag {
+  background: rgba(139, 69, 19, 0.7);
+}
+
+.bento-card[data-category="music"] .bento-tag {
+  background: rgba(65, 105, 225, 0.6);
+}
+
+.bento-card[data-category="drawing"] .bento-tag {
+  background: rgba(46, 139, 87, 0.6);
+}
+
+.bento-card[data-category="design"] .bento-tag {
+  background: rgba(148, 103, 189, 0.6);
+}
+
+/* Lightbox modal with side content */
+.art-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 9999;
+  padding: 2rem;
+  cursor: zoom-out;
+  animation: fadeIn 0.3s ease;
+  
+  &.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lightbox-content {
+    display: flex;
+    gap: 3rem;
+    max-width: 90vw;
+    max-height: 85vh;
+    align-items: center;
+    cursor: default;
+  }
+  
+  .lightbox-media {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    
+    img {
+      max-width: 100%;
+      max-height: 80vh;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    
+    iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      max-height: 80vh;
+      border-radius: 8px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  .lightbox-info {
+    flex: 0 0 320px;
+    max-width: 320px;
+    padding: 1.5rem;
+    
+    .lightbox-tag {
+      display: inline-block;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #ffffff !important;
+      padding: 4px 12px;
+      border: 1px solid rgba(255,255,255,0.5);
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+    
+    h2 {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 28px;
+      font-weight: 400;
+      color: #ffffff !important;
+      margin: 0 0 0.5rem;
+      line-height: 1.3;
+    }
+    
+    .lightbox-meta {
+      font-family: "Caveat", cursive;
+      font-size: 18px;
+      color: #ffffff !important;
+      margin: 0 0 1.5rem;
+    }
+    
+    .lightbox-desc {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 15px;
+      color: #ffffff !important;
+      line-height: 1.7;
+      margin: 0;
+    }
+  }
+  
+  .lightbox-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    z-index: 10;
+    
+    &:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+    }
+    
+    &::before { transform: rotate(45deg); }
+    &::after { transform: rotate(-45deg); }
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 900px) {
+    .lightbox-content {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .lightbox-media {
+      max-width: 100%;
+      
+      img, iframe {
+        max-height: 50vh;
+      }
+    }
+    
+    .lightbox-info {
+      flex: 0 0 auto;
+      max-width: 100%;
+      text-align: center;
+      padding: 1rem;
+      
+      h2 { font-size: 22px; }
+      .lightbox-desc { font-size: 14px; }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Arts page specific styling */
+body[data-slug^="arts"] {
+  .page:not(.landing-page) em:not(.bento-overlay em),
+  .page:not(.landing-page) i:not(.bento-overlay i),
+  .page:not(.landing-page) cite:not(.bento-overlay cite) {
+    color: #8B4513 !important;
+  }
+  
+  /* Exclude bento overlay from arts page italic styling */
+  .bento-overlay,
+  .bento-overlay * {
+    color: #ffffff !important;
+  }
+  
+  .page:not(.landing-page) blockquote {
+    border-left: 3px solid #8B4513 !important;
+    background: linear-gradient(135deg, #faf6f2 0%, #f5ebe0 100%);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 12px 12px 0;
+    margin: 1.5rem 0;
+    
+    p:not(.bento-overlay p):not(.lightbox-meta):not(.lightbox-desc) {
+      font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+      font-style: italic;
+      color: #5a4a3a !important;
+    }
+  }
+  
+  /* Force white text in bento overlay */
+  .bento-overlay h3,
+  .bento-overlay p,
+  .bento-overlay .bento-tag {
+    color: #ffffff !important;
+  }
+  
+  /* Force white text in lightbox */
+  .art-lightbox .lightbox-info h2,
+  .art-lightbox .lightbox-info p,
+  .art-lightbox .lightbox-info .lightbox-tag,
+  .art-lightbox .lightbox-info .lightbox-meta,
+  .art-lightbox .lightbox-info .lightbox-desc {
+    color: #ffffff !important;
+  }
+  
+  a:not(.page-title a) {
+    color: #8B4513 !important;
+    
+    &:hover {
+      color: rgba(139, 69, 19, 0.7) !important;
+    }
+  }
+  
+  .content-meta {
+    color: #8B4513 !important;
+  }
+  
+  .page-title a::before,
+  .page-title a::after {
+    color: #8B4513 !important;
+  }
+  
+  .marquee {
+    background: linear-gradient(
+      90deg,
+      #8B4513 77%,
+      color-mix(in srgb, #8B4513 70%, white) 100%
+    );
+  }
+  
+  /* Section dividers */
+  hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #d4c4b0, transparent);
+    margin: 3rem 0;
+  }
+  
+  /* Section headings */
+  article h2 {
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px !important;
+    color: #8B4513;
+    margin: 2.5rem 0 1.5rem;
+    
+    &::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: #8B4513;
+      margin-top: 0.75rem;
+    }
+  }
+  
+  /* Hide folder content section on arts page */
+  .page-listing,
+  ul.section-ul,
+  .folder-content {
+    display: none !important;
+  }
+}
