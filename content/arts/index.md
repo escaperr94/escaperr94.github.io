@@ -147,10 +147,17 @@ Over the years, I've dabbled in different crafts. Not to become great at any of 
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+// Self-executing function that works with SPA navigation
+(function initBentoGallery() {
+  // Remove old listeners by cloning elements
+  document.querySelectorAll('.bento-card').forEach(card => {
+    const newCard = card.cloneNode(true);
+    card.parentNode.replaceChild(newCard, card);
+  });
+  
+  // Add click handlers
   document.querySelectorAll('.bento-card').forEach(card => {
     card.addEventListener('click', (e) => {
-      // Don't trigger lightbox if clicking on iframe
       if (e.target.tagName === 'IFRAME') return;
       
       const isVideo = card.dataset.video;
@@ -184,22 +191,29 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  document.getElementById('artLightbox').addEventListener('click', (e) => {
-    if (e.target.id === 'artLightbox' || e.target.classList.contains('lightbox-close')) {
-      closeLightbox();
-    }
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeLightbox();
-  });
-});
+  const lightbox = document.getElementById('artLightbox');
+  if (lightbox) {
+    lightbox.onclick = (e) => {
+      if (e.target.id === 'artLightbox' || e.target.classList.contains('lightbox-close')) {
+        closeLightbox();
+      }
+    };
+  }
+})();
 
 function closeLightbox() {
-  document.getElementById('artLightbox').classList.remove('active');
-  document.getElementById('lightboxVideo').src = '';
-  document.body.style.overflow = '';
+  const lightbox = document.getElementById('artLightbox');
+  if (lightbox) {
+    lightbox.classList.remove('active');
+    const video = document.getElementById('lightboxVideo');
+    if (video) video.src = '';
+    document.body.style.overflow = '';
+  }
 }
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeLightbox();
+});
 </script>
 
 ---
