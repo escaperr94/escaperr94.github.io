@@ -116,6 +116,84 @@ function addGlobalPageResources(
         document.dispatchEvent(event)`)
   }
 
+  // Gallery lightbox script for arts page
+  componentResources.afterDOMLoaded.push(`
+    document.addEventListener("nav", () => {
+      if (!document.body.dataset.slug?.startsWith("arts")) return;
+      
+      function initBentoGallery() {
+        const cards = document.querySelectorAll('.bento-card');
+        const lightbox = document.getElementById('artLightbox');
+        
+        if (cards.length === 0 || !lightbox) {
+          setTimeout(initBentoGallery, 100);
+          return;
+        }
+        
+        cards.forEach(card => {
+          if (card.dataset.galleryInit) return;
+          card.dataset.galleryInit = 'true';
+          
+          card.addEventListener('click', (e) => {
+            if (e.target.tagName === 'IFRAME') return;
+            
+            const isVideo = card.dataset.video;
+            const imgEl = card.querySelector('img');
+            const src = imgEl ? imgEl.src : '';
+            const title = card.dataset.title || '';
+            const meta = card.dataset.meta || '';
+            const desc = card.dataset.desc || '';
+            const category = card.dataset.category || '';
+            
+            const lightboxImg = document.getElementById('lightboxImg');
+            const lightboxVideo = document.getElementById('lightboxVideo');
+            
+            if (isVideo) {
+              lightboxImg.style.display = 'none';
+              lightboxVideo.style.display = 'block';
+              lightboxVideo.src = card.dataset.video + '?autoplay=1';
+            } else {
+              lightboxImg.style.display = 'block';
+              lightboxVideo.style.display = 'none';
+              lightboxVideo.src = '';
+              lightboxImg.src = src;
+            }
+            
+            document.getElementById('lightboxTag').textContent = category.charAt(0).toUpperCase() + category.slice(1);
+            document.getElementById('lightboxTitle').textContent = title;
+            document.getElementById('lightboxMeta').textContent = meta;
+            document.getElementById('lightboxDesc').textContent = desc;
+            document.getElementById('artLightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+          });
+        });
+
+        lightbox.onclick = (e) => {
+          if (e.target.id === 'artLightbox' || e.target.classList.contains('lightbox-close')) {
+            lightbox.classList.remove('active');
+            const video = document.getElementById('lightboxVideo');
+            if (video) video.src = '';
+            document.body.style.overflow = '';
+          }
+        };
+      }
+
+      initBentoGallery();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const lightbox = document.getElementById('artLightbox');
+        if (lightbox) {
+          lightbox.classList.remove('active');
+          const video = document.getElementById('lightboxVideo');
+          if (video) video.src = '';
+          document.body.style.overflow = '';
+        }
+      }
+    });
+  `)
+
   let wsUrl = `ws://localhost:${ctx.argv.wsPort}`
 
   if (ctx.argv.remoteDevHost) {
