@@ -117,13 +117,13 @@ export default (() => {
           <nav class="main-navigation">
             <a href="/" class="nav-link nav-main">HOME</a>
             <span class="nav-separator">•</span>
-            <a href="/about" class="nav-link nav-highlight">ABOUT ME</a>
+            <a href="/about/" class="nav-link nav-highlight">ABOUT ME</a>
             <span class="nav-separator">•</span>
-            <a href="/projects" class="nav-link nav-highlight">PROJECTS</a>
+            <a href="/projects/" class="nav-link nav-highlight">PROJECTS</a>
             <span class="nav-separator">•</span>
-            <a href="/publications" class="nav-link nav-highlight">PUBLICATIONS</a>
+            <a href="/publications/" class="nav-link nav-highlight">PUBLICATIONS</a>
             <span class="nav-separator">•</span>
-            <a href="/arts" class="nav-link nav-highlight">ARTS</a>
+            <a href="/arts/" class="nav-link nav-highlight">ARTS</a>
           </nav>
 
           {/* Wrap character and cards together for proper layout */}
